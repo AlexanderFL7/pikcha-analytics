@@ -1,2 +1,1 @@
-# pikcha-analytics
-Создание аналитической системы для магазина "Пикча"
+# Pikcha Analytics Project
