@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1003",
+  "first_name": "Артем",
+  "last_name": "Субботина",
+  "email": "simondenisov@example.net",
+  "phone": "+7 688 133 53 85",
+  "birth_date": "2004-06-10",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.907369",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-726B2B1360",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Армавир",
+    "street": "бул. Социалистический",
+    "house": "5/9",
+    "postal_code": "699032",
+    "coordinates": {
+      "latitude": -35.5031175,
+      "longitude": 11.508997
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Армавир",
+    "street": "бул. Халтурина",
+    "house": "933",
+    "apartment": "75",
+    "postal_code": "853835"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

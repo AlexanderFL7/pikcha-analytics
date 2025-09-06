@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1026",
+  "first_name": "Пелагея",
+  "last_name": "Алексеева",
+  "email": "valeri_59@example.net",
+  "phone": "+7 301 237 42 94",
+  "birth_date": "1983-11-16",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.914894",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B472FA042C",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Бирск",
+    "street": "ул. Павлика Морозова",
+    "house": "4",
+    "postal_code": "222219",
+    "coordinates": {
+      "latitude": -36.8934825,
+      "longitude": 45.392309
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Бирск",
+    "street": "наб. Уральская",
+    "house": "9",
+    "apartment": "87",
+    "postal_code": "751975"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

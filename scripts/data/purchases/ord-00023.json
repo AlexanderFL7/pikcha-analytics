@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00023",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Александр",
+    "last_name": "Галкин"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на пр. Иванова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Балтийск",
+      "street": "пр. Магистральный",
+      "house": "91",
+      "postal_code": "643948",
+      "coordinates": {
+        "latitude": 67.1264105,
+        "longitude": 31.50276
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Дрогнуть",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 126.75,
+      "total_price": 507.0,
+      "kbju": {
+        "calories": 174.5,
+        "protein": 3.7,
+        "fat": 1.9,
+        "carbohydrates": 2.7
+      },
+      "manufacturer": {
+        "name": "РАО «Никонова-Меркушева»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "0031992196"
+      }
+    }
+  ],
+  "total_amount": 507.0,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Пышма",
+    "street": "бул. Совхозный",
+    "house": "70",
+    "apartment": "87",
+    "postal_code": "281559"
+  },
+  "purchase_datetime": "2025-06-22T14:47:50.928289"
+}

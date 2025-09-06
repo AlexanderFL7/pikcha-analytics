@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00046",
+  "customer": {
+    "customer_id": "cus-1005",
+    "first_name": "Гедеон",
+    "last_name": "Трофимова"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на наб. Речная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Волгодонск",
+      "street": "ул. Малая",
+      "house": "3",
+      "postal_code": "863243",
+      "coordinates": {
+        "latitude": 40.374475,
+        "longitude": 95.835564
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Пастух",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 133.59,
+      "total_price": 267.18,
+      "kbju": {
+        "calories": 172.6,
+        "protein": 2.7,
+        "fat": 0.9,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "АО «Тетерин»",
+        "country": "Россия",
+        "website": "https://savin.net",
+        "inn": "8277823721"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 183.45,
+      "total_price": 917.25,
+      "kbju": {
+        "calories": 205.3,
+        "protein": 11.6,
+        "fat": 2.6,
+        "carbohydrates": 42.0
+      },
+      "manufacturer": {
+        "name": "Байер",
+        "country": "Россия",
+        "website": "https://npo.info",
+        "inn": "4994631194"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 899.1,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 2083.53,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Орск",
+    "street": "алл. Запорожская",
+    "house": "1/8",
+    "apartment": "31",
+    "postal_code": "332551"
+  },
+  "purchase_datetime": "2025-07-02T14:47:50.934579"
+}

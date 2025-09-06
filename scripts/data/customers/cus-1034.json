@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1034",
+  "first_name": "Аникей",
+  "last_name": "Селезнев",
+  "email": "vseslav_2021@example.com",
+  "phone": "8 696 529 7568",
+  "birth_date": "1969-12-18",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.917672",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-D5497D3367",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Киренск",
+    "street": "ул. Воровского",
+    "house": "629",
+    "postal_code": "962077",
+    "coordinates": {
+      "latitude": -63.2219525,
+      "longitude": -21.681099
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Киренск",
+    "street": "пер. Рабочий",
+    "house": "99",
+    "apartment": "5",
+    "postal_code": "266951"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

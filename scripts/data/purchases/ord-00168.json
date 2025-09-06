@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00168",
+  "customer": {
+    "customer_id": "cus-1029",
+    "first_name": "Филарет",
+    "last_name": "Коновалов"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на пр. Баумана",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шерегеш",
+      "street": "пр. Овражный",
+      "house": "4",
+      "postal_code": "590647",
+      "coordinates": {
+        "latitude": 26.761832,
+        "longitude": 149.405428
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 551.31,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 1058.15,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 1609.46,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Новая Игирма",
+    "street": "наб. Жукова",
+    "house": "1/5",
+    "apartment": "59",
+    "postal_code": "546025"
+  },
+  "purchase_datetime": "2025-06-27T14:47:50.970953"
+}

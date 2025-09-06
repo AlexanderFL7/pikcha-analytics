@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1020",
+  "first_name": "Ерофей",
+  "last_name": "Ширяев",
+  "email": "vsevolod_68@example.com",
+  "phone": "8 (479) 909-5639",
+  "birth_date": "1978-11-12",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.912971",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-3B53BC8465",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "ш. Павлова",
+    "house": "32",
+    "postal_code": "292235",
+    "coordinates": {
+      "latitude": -51.10877,
+      "longitude": 6.883943
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "наб. Лермонтова",
+    "house": "6/2",
+    "apartment": "79",
+    "postal_code": "936362"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

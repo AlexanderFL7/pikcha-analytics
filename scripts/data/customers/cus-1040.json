@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1040",
+  "first_name": "Гурий",
+  "last_name": "Шаров",
+  "email": "feliksdorofeev@example.org",
+  "phone": "8 347 817 67 26",
+  "birth_date": "1980-10-31",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.919953",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2D0B6EFEE9",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Алексин",
+    "street": "ш. Рязанское",
+    "house": "21",
+    "postal_code": "507571",
+    "coordinates": {
+      "latitude": 88.024904,
+      "longitude": 74.521039
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Алексин",
+    "street": "алл. Тельмана",
+    "house": "6/1",
+    "apartment": "14",
+    "postal_code": "187353"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

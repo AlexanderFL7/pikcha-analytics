@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00140",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Игорь",
+    "last_name": "Никонова"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на ул. Безымянная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Кирово-Чепецк",
+      "street": "пр. Заводской",
+      "house": "8",
+      "postal_code": "830008",
+      "coordinates": {
+        "latitude": -66.4525245,
+        "longitude": -77.787105
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Ярко",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 112.77,
+      "total_price": 451.08,
+      "kbju": {
+        "calories": 255.7,
+        "protein": 19.3,
+        "fat": 9.1,
+        "carbohydrates": 44.8
+      },
+      "manufacturer": {
+        "name": "ЗАО «Фомичева Потапов»",
+        "country": "Россия",
+        "website": "https://komarov.info",
+        "inn": "9954826192"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Дрогнуть",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 126.75,
+      "total_price": 126.75,
+      "kbju": {
+        "calories": 174.5,
+        "protein": 3.7,
+        "fat": 1.9,
+        "carbohydrates": 2.7
+      },
+      "manufacturer": {
+        "name": "РАО «Никонова-Меркушева»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "0031992196"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 191.07,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    }
+  ],
+  "total_amount": 768.9,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "ул. Моховая",
+    "house": "2/3",
+    "apartment": "44",
+    "postal_code": "749490"
+  },
+  "purchase_datetime": "2025-08-31T14:47:50.963109"
+}

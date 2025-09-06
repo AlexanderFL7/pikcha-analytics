@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00085",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Станислав",
+    "last_name": "Зуев"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на бул. Каштановый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Астрахань",
+      "street": "пр. Черняховского",
+      "house": "871",
+      "postal_code": "288822",
+      "coordinates": {
+        "latitude": 7.5628275,
+        "longitude": -45.079335
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Проход",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 292.41,
+      "total_price": 584.82,
+      "kbju": {
+        "calories": 51.6,
+        "protein": 18.0,
+        "fat": 4.1,
+        "carbohydrates": 47.4
+      },
+      "manufacturer": {
+        "name": "Назарова Лтд",
+        "country": "Россия",
+        "website": "https://ip.edu",
+        "inn": "0450473836"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Уточнить",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 295.27,
+      "total_price": 295.27,
+      "kbju": {
+        "calories": 142.7,
+        "protein": 8.5,
+        "fat": 5.6,
+        "carbohydrates": 35.4
+      },
+      "manufacturer": {
+        "name": "ИП «Богданова»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "2560697103"
+      }
+    }
+  ],
+  "total_amount": 880.09,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Красновишерск",
+    "street": "наб. Добролюбова",
+    "house": "1",
+    "apartment": "30",
+    "postal_code": "546948"
+  },
+  "purchase_datetime": "2025-06-30T14:47:50.946936"
+}

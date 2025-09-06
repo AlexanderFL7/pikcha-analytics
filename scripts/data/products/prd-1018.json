@@ -1,0 +1,24 @@
+{
+  "id": "prd-1018",
+  "name": "Госпожа",
+  "group": "🍏🍏 Фрукты и ягоды",
+  "description": "Потом ответить солнце миф.",
+  "kbju": {
+    "calories": 78.0,
+    "protein": 3.8,
+    "fat": 2.2,
+    "carbohydrates": 11.8
+  },
+  "price": 212.02,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 9,
+  "is_organic": false,
+  "barcode": "2393837047361",
+  "manufacturer": {
+    "name": "РАО «Ширяев»",
+    "country": "Россия",
+    "website": "https://nk.info",
+    "inn": "9989066065"
+  }
+}

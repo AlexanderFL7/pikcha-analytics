@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1031",
+  "first_name": "Игорь",
+  "last_name": "Никонова",
+  "email": "ipat2013@example.com",
+  "phone": "8 (471) 111-01-03",
+  "birth_date": "2005-10-03",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.916675",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-F58C4D7961",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "пр. Майский",
+    "house": "7/6",
+    "postal_code": "395153",
+    "coordinates": {
+      "latitude": -50.2613935,
+      "longitude": -130.640063
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "ул. Моховая",
+    "house": "2/3",
+    "apartment": "44",
+    "postal_code": "749490"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

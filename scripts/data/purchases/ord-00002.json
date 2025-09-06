@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00002",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Мстислав",
+    "last_name": "Кондратьев"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пер. Коллективный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Нижний Тагил",
+      "street": "наб. Промышленная",
+      "house": "9/7",
+      "postal_code": "826135",
+      "coordinates": {
+        "latitude": 34.883193,
+        "longitude": -99.553865
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 997.92,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Князь",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 263.68,
+      "total_price": 1318.4,
+      "kbju": {
+        "calories": 238.3,
+        "protein": 7.2,
+        "fat": 12.5,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ООО «Зыкова Новикова»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "0338967200"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Дрогнуть",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 288.03,
+      "total_price": 576.06,
+      "kbju": {
+        "calories": 184.4,
+        "protein": 13.6,
+        "fat": 0.3,
+        "carbohydrates": 19.8
+      },
+      "manufacturer": {
+        "name": "ИП «Фролова Вишнякова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "8822862082"
+      }
+    }
+  ],
+  "total_amount": 2892.38,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Балтийск",
+    "street": "ул. Большевистская",
+    "house": "54",
+    "apartment": "51",
+    "postal_code": "577770"
+  },
+  "purchase_datetime": "2025-08-03T14:47:50.921924"
+}

@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00166",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Ерофей",
+    "last_name": "Ширяев"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на пер. Радищева",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Пушкин",
+      "street": "бул. Азина",
+      "house": "7/4",
+      "postal_code": "026313",
+      "coordinates": {
+        "latitude": -14.041985,
+        "longitude": -40.204764
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Ярко",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 112.77,
+      "total_price": 112.77,
+      "kbju": {
+        "calories": 255.7,
+        "protein": 19.3,
+        "fat": 9.1,
+        "carbohydrates": 44.8
+      },
+      "manufacturer": {
+        "name": "ЗАО «Фомичева Потапов»",
+        "country": "Россия",
+        "website": "https://komarov.info",
+        "inn": "9954826192"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 1198.8,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 1311.57,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "наб. Лермонтова",
+    "house": "6/2",
+    "apartment": "79",
+    "postal_code": "936362"
+  },
+  "purchase_datetime": "2025-07-21T14:47:50.970424"
+}

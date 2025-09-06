@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1028",
+  "first_name": "Ефим",
+  "last_name": "Корнилов",
+  "email": "evdokija_1974@example.org",
+  "phone": "8 (623) 550-16-43",
+  "birth_date": "1956-07-23",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.915529",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-C33186BC52",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "г. Котлас",
+    "street": "пр. Зеленый",
+    "house": "3/4",
+    "postal_code": "718054",
+    "coordinates": {
+      "latitude": 82.3577365,
+      "longitude": -59.047265
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Котлас",
+    "street": "ш. Орджоникидзе",
+    "house": "18",
+    "apartment": "78",
+    "postal_code": "718992"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

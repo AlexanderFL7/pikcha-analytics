@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1044",
+  "first_name": "Александр",
+  "last_name": "Галкин",
+  "email": "leonti2015@example.net",
+  "phone": "8 449 251 23 73",
+  "birth_date": "1993-09-11",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.921271",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B2D51968F0",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Пышма",
+    "street": "пр. Вавилова",
+    "house": "98",
+    "postal_code": "631079",
+    "coordinates": {
+      "latitude": 37.2068935,
+      "longitude": 36.641883
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Пышма",
+    "street": "бул. Совхозный",
+    "house": "70",
+    "apartment": "87",
+    "postal_code": "281559"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

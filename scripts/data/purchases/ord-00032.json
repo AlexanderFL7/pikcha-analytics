@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00032",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Прокл",
+    "last_name": "Гущин"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на пр. Колхозный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Самара",
+      "street": "ул. Журавлева",
+      "house": "2/6",
+      "postal_code": "737502",
+      "coordinates": {
+        "latitude": -83.7555685,
+        "longitude": -147.842716
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 1247.4,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Проход",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 292.41,
+      "total_price": 877.23,
+      "kbju": {
+        "calories": 51.6,
+        "protein": 18.0,
+        "fat": 4.1,
+        "carbohydrates": 47.4
+      },
+      "manufacturer": {
+        "name": "Назарова Лтд",
+        "country": "Россия",
+        "website": "https://ip.edu",
+        "inn": "0450473836"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Дрогнуть",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 288.03,
+      "total_price": 1152.12,
+      "kbju": {
+        "calories": 184.4,
+        "protein": 13.6,
+        "fat": 0.3,
+        "carbohydrates": 19.8
+      },
+      "manufacturer": {
+        "name": "ИП «Фролова Вишнякова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "8822862082"
+      }
+    }
+  ],
+  "total_amount": 3276.75,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шенкурск",
+    "street": "пер. Индустриальный",
+    "house": "830",
+    "apartment": "39",
+    "postal_code": "674444"
+  },
+  "purchase_datetime": "2025-08-07T14:47:50.930562"
+}

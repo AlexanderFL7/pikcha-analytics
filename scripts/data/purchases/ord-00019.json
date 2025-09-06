@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00019",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Игорь",
+    "last_name": "Никонова"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на бул. Красногвардейский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Орск",
+      "street": "пр. Прудный",
+      "house": "1",
+      "postal_code": "060402",
+      "coordinates": {
+        "latitude": 8.6331395,
+        "longitude": 135.50253
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 636.06,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Пастух",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 133.59,
+      "total_price": 267.18,
+      "kbju": {
+        "calories": 172.6,
+        "protein": 2.7,
+        "fat": 0.9,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "АО «Тетерин»",
+        "country": "Россия",
+        "website": "https://savin.net",
+        "inn": "8277823721"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 764.28,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    }
+  ],
+  "total_amount": 1667.52,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "ул. Моховая",
+    "house": "2/3",
+    "apartment": "44",
+    "postal_code": "749490"
+  },
+  "purchase_datetime": "2025-07-14T14:47:50.927188"
+}

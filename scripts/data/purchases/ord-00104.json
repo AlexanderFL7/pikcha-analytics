@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00104",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Игорь",
+    "last_name": "Никонова"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на бул. Толстого",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Красноярск",
+      "street": "алл. Тукая",
+      "house": "87",
+      "postal_code": "575576",
+      "coordinates": {
+        "latitude": 82.9893275,
+        "longitude": 33.148003
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 997.92,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 573.21,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 599.4,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 2170.53,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "ул. Моховая",
+    "house": "2/3",
+    "apartment": "44",
+    "postal_code": "749490"
+  },
+  "purchase_datetime": "2025-06-19T14:47:50.952227"
+}

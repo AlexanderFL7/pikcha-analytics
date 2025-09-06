@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00062",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Станислав",
+    "last_name": "Зуев"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Покровская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Соликамск",
+      "street": "ул. Победы",
+      "house": "9/4",
+      "postal_code": "754100",
+      "coordinates": {
+        "latitude": 57.2343735,
+        "longitude": 107.20687
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 636.06,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 183.45,
+      "total_price": 550.35,
+      "kbju": {
+        "calories": 205.3,
+        "protein": 11.6,
+        "fat": 2.6,
+        "carbohydrates": 42.0
+      },
+      "manufacturer": {
+        "name": "Байер",
+        "country": "Россия",
+        "website": "https://npo.info",
+        "inn": "4994631194"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 634.89,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 1821.3,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Красновишерск",
+    "street": "наб. Добролюбова",
+    "house": "1",
+    "apartment": "30",
+    "postal_code": "546948"
+  },
+  "purchase_datetime": "2025-08-03T14:47:50.939820"
+}

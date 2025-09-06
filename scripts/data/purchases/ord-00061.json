@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00061",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Ерофей",
+    "last_name": "Ширяев"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на наб. Микрорайон",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Бирск",
+      "street": "ул. Павлика Морозова",
+      "house": "4",
+      "postal_code": "222219",
+      "coordinates": {
+        "latitude": -36.8934825,
+        "longitude": 45.392309
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 191.07,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    }
+  ],
+  "total_amount": 191.07,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "наб. Лермонтова",
+    "house": "6/2",
+    "apartment": "79",
+    "postal_code": "936362"
+  },
+  "purchase_datetime": "2025-07-21T14:47:50.939566"
+}

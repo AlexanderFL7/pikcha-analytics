@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1038",
+  "first_name": "Федосий",
+  "last_name": "Моисеева",
+  "email": "jaroslavkrasilnikov@example.net",
+  "phone": "8 231 498 08 69",
+  "birth_date": "2003-09-07",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.919315",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-52584F9EB7",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Кирово-Чепецк",
+    "street": "пр. Заводской",
+    "house": "8",
+    "postal_code": "830008",
+    "coordinates": {
+      "latitude": -66.4525245,
+      "longitude": -77.787105
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Кирово-Чепецк",
+    "street": "пр. Кольцова",
+    "house": "70",
+    "apartment": "14",
+    "postal_code": "070252"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

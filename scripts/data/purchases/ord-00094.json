@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00094",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Юлия",
+    "last_name": "Белозерова"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пер. Коллективный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Нижний Тагил",
+      "street": "наб. Промышленная",
+      "house": "9/7",
+      "postal_code": "826135",
+      "coordinates": {
+        "latitude": 34.883193,
+        "longitude": -99.553865
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 191.07,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 367.54,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    }
+  ],
+  "total_amount": 558.61,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Данков",
+    "street": "пр. Ленинский",
+    "house": "6",
+    "apartment": "53",
+    "postal_code": "284353"
+  },
+  "purchase_datetime": "2025-07-28T14:47:50.949410"
+}

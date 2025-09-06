@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00162",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Игорь",
+    "last_name": "Никонова"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Красная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Новомосковск",
+      "street": "пр. Майский",
+      "house": "7/6",
+      "postal_code": "395153",
+      "coordinates": {
+        "latitude": -50.2613935,
+        "longitude": -130.640063
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Дрогнуть",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 288.03,
+      "total_price": 1152.12,
+      "kbju": {
+        "calories": 184.4,
+        "protein": 13.6,
+        "fat": 0.3,
+        "carbohydrates": 19.8
+      },
+      "manufacturer": {
+        "name": "ИП «Фролова Вишнякова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "8822862082"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 498.96,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Еврейский",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 240.27,
+      "total_price": 480.54,
+      "kbju": {
+        "calories": 197.3,
+        "protein": 15.2,
+        "fat": 3.5,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "АО «Галкина Журавлева»",
+        "country": "Россия",
+        "website": "https://raffazenbank.org",
+        "inn": "0411464816"
+      }
+    }
+  ],
+  "total_amount": 2131.62,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "ул. Моховая",
+    "house": "2/3",
+    "apartment": "44",
+    "postal_code": "749490"
+  },
+  "purchase_datetime": "2025-08-24T14:47:50.969248"
+}

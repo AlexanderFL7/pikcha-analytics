@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00179",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Александр",
+    "last_name": "Галкин"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на бул. Заречный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Шенкурск",
+      "street": "наб. Подгорная",
+      "house": "72",
+      "postal_code": "316257",
+      "coordinates": {
+        "latitude": 38.270936,
+        "longitude": -66.786998
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Дрогнуть",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 288.03,
+      "total_price": 864.09,
+      "kbju": {
+        "calories": 184.4,
+        "protein": 13.6,
+        "fat": 0.3,
+        "carbohydrates": 19.8
+      },
+      "manufacturer": {
+        "name": "ИП «Фролова Вишнякова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "8822862082"
+      }
+    }
+  ],
+  "total_amount": 864.09,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Пышма",
+    "street": "бул. Совхозный",
+    "house": "70",
+    "apartment": "87",
+    "postal_code": "281559"
+  },
+  "purchase_datetime": "2025-07-09T14:47:50.974314"
+}

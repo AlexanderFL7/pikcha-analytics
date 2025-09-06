@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00102",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Игорь",
+    "last_name": "Никонова"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Покровская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Соликамск",
+      "street": "ул. Победы",
+      "house": "9/4",
+      "postal_code": "754100",
+      "coordinates": {
+        "latitude": 57.2343735,
+        "longitude": 107.20687
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Дрогнуть",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 288.03,
+      "total_price": 1440.15,
+      "kbju": {
+        "calories": 184.4,
+        "protein": 13.6,
+        "fat": 0.3,
+        "carbohydrates": 19.8
+      },
+      "manufacturer": {
+        "name": "ИП «Фролова Вишнякова»",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "8822862082"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 212.02,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Проход",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 292.41,
+      "total_price": 877.23,
+      "kbju": {
+        "calories": 51.6,
+        "protein": 18.0,
+        "fat": 4.1,
+        "carbohydrates": 47.4
+      },
+      "manufacturer": {
+        "name": "Назарова Лтд",
+        "country": "Россия",
+        "website": "https://ip.edu",
+        "inn": "0450473836"
+      }
+    }
+  ],
+  "total_amount": 2529.4,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Новомосковск",
+    "street": "ул. Моховая",
+    "house": "2/3",
+    "apartment": "44",
+    "postal_code": "749490"
+  },
+  "purchase_datetime": "2025-07-20T14:47:50.951698"
+}

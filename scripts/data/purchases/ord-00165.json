@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00165",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Всеволод",
+    "last_name": "Лазарева"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на ул. Тепличная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терскол",
+      "street": "ул. Ягодная",
+      "house": "4/7",
+      "postal_code": "753455",
+      "coordinates": {
+        "latitude": 55.225906,
+        "longitude": 169.583388
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 239.02,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 424.04,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 918.85,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    }
+  ],
+  "total_amount": 1581.91,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Казань",
+    "street": "ш. Новгородское",
+    "house": "23",
+    "apartment": "63",
+    "postal_code": "522351"
+  },
+  "purchase_datetime": "2025-06-08T14:47:50.970128"
+}

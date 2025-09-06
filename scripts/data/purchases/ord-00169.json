@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00169",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ким",
+    "last_name": "Евсеева"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на пр. Громова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Всеволожск",
+      "street": "ш. Клары Цеткин",
+      "house": "1",
+      "postal_code": "412397",
+      "coordinates": {
+        "latitude": -73.3710385,
+        "longitude": 49.94916
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Еврейский",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 240.27,
+      "total_price": 480.54,
+      "kbju": {
+        "calories": 197.3,
+        "protein": 15.2,
+        "fat": 3.5,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "АО «Галкина Журавлева»",
+        "country": "Россия",
+        "website": "https://raffazenbank.org",
+        "inn": "0411464816"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Дрогнуть",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 126.75,
+      "total_price": 126.75,
+      "kbju": {
+        "calories": 174.5,
+        "protein": 3.7,
+        "fat": 1.9,
+        "carbohydrates": 2.7
+      },
+      "manufacturer": {
+        "name": "РАО «Никонова-Меркушева»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "0031992196"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 183.45,
+      "total_price": 183.45,
+      "kbju": {
+        "calories": 205.3,
+        "protein": 11.6,
+        "fat": 2.6,
+        "carbohydrates": 42.0
+      },
+      "manufacturer": {
+        "name": "Байер",
+        "country": "Россия",
+        "website": "https://npo.info",
+        "inn": "4994631194"
+      }
+    }
+  ],
+  "total_amount": 790.74,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Витим",
+    "street": "бул. Бабушкина",
+    "house": "5/2",
+    "apartment": "47",
+    "postal_code": "264111"
+  },
+  "purchase_datetime": "2025-07-28T14:47:50.971215"
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00125",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Гурий",
+    "last_name": "Шаров"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на наб. Гражданская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Дудинка",
+      "street": "пер. Металлургов",
+      "house": "3",
+      "postal_code": "459159",
+      "coordinates": {
+        "latitude": -75.8269805,
+        "longitude": -75.154651
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 183.45,
+      "total_price": 366.9,
+      "kbju": {
+        "calories": 205.3,
+        "protein": 11.6,
+        "fat": 2.6,
+        "carbohydrates": 42.0
+      },
+      "manufacturer": {
+        "name": "Байер",
+        "country": "Россия",
+        "website": "https://npo.info",
+        "inn": "4994631194"
+      }
+    }
+  ],
+  "total_amount": 366.9,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Алексин",
+    "street": "алл. Тельмана",
+    "house": "6/1",
+    "apartment": "14",
+    "postal_code": "187353"
+  },
+  "purchase_datetime": "2025-06-11T14:47:50.958876"
+}

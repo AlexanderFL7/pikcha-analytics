@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00098",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Гурий",
+    "last_name": "Шаров"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на пр. Ивановский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Шенкурск",
+      "street": "наб. Лазурная",
+      "house": "8/4",
+      "postal_code": "877860",
+      "coordinates": {
+        "latitude": 88.1494125,
+        "longitude": 177.254759
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Уточнить",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 295.27,
+      "total_price": 590.54,
+      "kbju": {
+        "calories": 142.7,
+        "protein": 8.5,
+        "fat": 5.6,
+        "carbohydrates": 35.4
+      },
+      "manufacturer": {
+        "name": "ИП «Богданова»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "2560697103"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Князь",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 263.68,
+      "total_price": 791.04,
+      "kbju": {
+        "calories": 238.3,
+        "protein": 7.2,
+        "fat": 12.5,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ООО «Зыкова Новикова»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "0338967200"
+      }
+    }
+  ],
+  "total_amount": 1381.58,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Алексин",
+    "street": "алл. Тельмана",
+    "house": "6/1",
+    "apartment": "14",
+    "postal_code": "187353"
+  },
+  "purchase_datetime": "2025-09-03T14:47:50.950609"
+}

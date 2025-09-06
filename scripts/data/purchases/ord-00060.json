@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00060",
+  "customer": {
+    "customer_id": "cus-1025",
+    "first_name": "Любовь",
+    "last_name": "Наумов"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ш. Производственное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Валаам",
+      "street": "пер. Центральный",
+      "house": "6/5",
+      "postal_code": "604786",
+      "coordinates": {
+        "latitude": -60.20135,
+        "longitude": -151.417397
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Пастух",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 133.59,
+      "total_price": 400.77,
+      "kbju": {
+        "calories": 172.6,
+        "protein": 2.7,
+        "fat": 0.9,
+        "carbohydrates": 37.7
+      },
+      "manufacturer": {
+        "name": "АО «Тетерин»",
+        "country": "Россия",
+        "website": "https://savin.net",
+        "inn": "8277823721"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 299.7,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 700.47,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Валаам",
+    "street": "пер. Главный",
+    "house": "78",
+    "apartment": "29",
+    "postal_code": "179666"
+  },
+  "purchase_datetime": "2025-06-17T14:47:50.939288"
+}

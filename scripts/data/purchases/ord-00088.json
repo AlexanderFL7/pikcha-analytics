@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00088",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Артем",
+    "last_name": "Субботина"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Пушкинская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Кунгур",
+      "street": "ш. Моховое",
+      "house": "12",
+      "postal_code": "257087",
+      "coordinates": {
+        "latitude": 55.5181055,
+        "longitude": 20.301695
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 1498.5,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Еврейский",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 240.27,
+      "total_price": 720.81,
+      "kbju": {
+        "calories": 197.3,
+        "protein": 15.2,
+        "fat": 3.5,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "АО «Галкина Журавлева»",
+        "country": "Россия",
+        "website": "https://raffazenbank.org",
+        "inn": "0411464816"
+      }
+    }
+  ],
+  "total_amount": 2219.31,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Армавир",
+    "street": "бул. Халтурина",
+    "house": "933",
+    "apartment": "75",
+    "postal_code": "853835"
+  },
+  "purchase_datetime": "2025-08-25T14:47:50.947720"
+}

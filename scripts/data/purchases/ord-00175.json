@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00175",
+  "customer": {
+    "customer_id": "cus-1011",
+    "first_name": "Святополк",
+    "last_name": "Макарова"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ш. Песчаное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Смоленск",
+      "street": "ш. Павлова",
+      "house": "32",
+      "postal_code": "292235",
+      "coordinates": {
+        "latitude": -51.10877,
+        "longitude": 6.883943
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Грудь",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 94.97,
+      "total_price": 284.91,
+      "kbju": {
+        "calories": 131.1,
+        "protein": 1.5,
+        "fat": 0.1,
+        "carbohydrates": 10.3
+      },
+      "manufacturer": {
+        "name": "Фирма Агрокомплекс им. Ткачева",
+        "country": "Россия",
+        "website": "https://rao.net",
+        "inn": "7716746089"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Проход",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 292.41,
+      "total_price": 1462.05,
+      "kbju": {
+        "calories": 51.6,
+        "protein": 18.0,
+        "fat": 4.1,
+        "carbohydrates": 47.4
+      },
+      "manufacturer": {
+        "name": "Назарова Лтд",
+        "country": "Россия",
+        "website": "https://ip.edu",
+        "inn": "0450473836"
+      }
+    }
+  ],
+  "total_amount": 1746.96,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Смоленск",
+    "street": "ул. Заовражная",
+    "house": "806",
+    "apartment": "70",
+    "postal_code": "313863"
+  },
+  "purchase_datetime": "2025-08-08T14:47:50.973175"
+}

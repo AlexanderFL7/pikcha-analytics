@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00154",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Нина",
+    "last_name": "Денисов"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на ул. Тепличная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Терскол",
+      "street": "ул. Ягодная",
+      "house": "4/7",
+      "postal_code": "753455",
+      "coordinates": {
+        "latitude": 55.225906,
+        "longitude": 169.583388
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Дрогнуть",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 126.75,
+      "total_price": 633.75,
+      "kbju": {
+        "calories": 174.5,
+        "protein": 3.7,
+        "fat": 1.9,
+        "carbohydrates": 2.7
+      },
+      "manufacturer": {
+        "name": "РАО «Никонова-Меркушева»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "0031992196"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Идея",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 58.27,
+      "total_price": 291.35,
+      "kbju": {
+        "calories": 168.9,
+        "protein": 19.7,
+        "fat": 7.7,
+        "carbohydrates": 23.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Пономарев, Петухова и Емельянова»",
+        "country": "Россия",
+        "website": "https://tsvetkova.edu",
+        "inn": "3148592343"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 1198.8,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 2123.9,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Нижний Тагил",
+    "street": "бул. Авиационный",
+    "house": "3/7",
+    "apartment": "18",
+    "postal_code": "908585"
+  },
+  "purchase_datetime": "2025-06-26T14:47:50.966880"
+}

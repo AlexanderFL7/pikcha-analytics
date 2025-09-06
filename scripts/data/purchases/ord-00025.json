@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00025",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Любовь",
+    "last_name": "Устинов"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на алл. Флотская",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Волгоград",
+      "street": "ул. Студенческая",
+      "house": "4/1",
+      "postal_code": "680822",
+      "coordinates": {
+        "latitude": 56.4509675,
+        "longitude": 145.509905
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Ярко",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 112.77,
+      "total_price": 225.54,
+      "kbju": {
+        "calories": 255.7,
+        "protein": 19.3,
+        "fat": 9.1,
+        "carbohydrates": 44.8
+      },
+      "manufacturer": {
+        "name": "ЗАО «Фомичева Потапов»",
+        "country": "Россия",
+        "website": "https://komarov.info",
+        "inn": "9954826192"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Уточнить",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 295.27,
+      "total_price": 1181.08,
+      "kbju": {
+        "calories": 142.7,
+        "protein": 8.5,
+        "fat": 5.6,
+        "carbohydrates": 35.4
+      },
+      "manufacturer": {
+        "name": "ИП «Богданова»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "2560697103"
+      }
+    }
+  ],
+  "total_amount": 1406.62,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Нефедова",
+    "street": "пр. Рылеева",
+    "house": "1/6",
+    "apartment": "48",
+    "postal_code": "573400"
+  },
+  "purchase_datetime": "2025-06-08T14:47:50.928786"
+}

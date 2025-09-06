@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1012",
+  "first_name": "Ангелина",
+  "last_name": "Коновалова",
+  "email": "kalininpankrat@example.org",
+  "phone": "+73572017854",
+  "birth_date": "1996-01-11",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.910296",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-38B1C73750",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Самара",
+    "street": "ул. Журавлева",
+    "house": "2/6",
+    "postal_code": "737502",
+    "coordinates": {
+      "latitude": -83.7555685,
+      "longitude": -147.842716
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Самара",
+    "street": "пр. Шахтерский",
+    "house": "66",
+    "apartment": "87",
+    "postal_code": "834355"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00160",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Прокл",
+    "last_name": "Гущин"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Красная",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Новомосковск",
+      "street": "пр. Майский",
+      "house": "7/6",
+      "postal_code": "395153",
+      "coordinates": {
+        "latitude": -50.2613935,
+        "longitude": -130.640063
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Еврейский",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 240.27,
+      "total_price": 720.81,
+      "kbju": {
+        "calories": 197.3,
+        "protein": 15.2,
+        "fat": 3.5,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "АО «Галкина Журавлева»",
+        "country": "Россия",
+        "website": "https://raffazenbank.org",
+        "inn": "0411464816"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 846.52,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 1567.33,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шенкурск",
+    "street": "пер. Индустриальный",
+    "house": "830",
+    "apartment": "39",
+    "postal_code": "674444"
+  },
+  "purchase_datetime": "2025-07-10T14:47:50.968686"
+}

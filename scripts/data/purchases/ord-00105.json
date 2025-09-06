@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00105",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ким",
+    "last_name": "Евсеева"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на ш. Володарского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Казань",
+      "street": "ш. Леваневского",
+      "house": "797",
+      "postal_code": "250193",
+      "coordinates": {
+        "latitude": 41.11672,
+        "longitude": 22.341622
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 211.63,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 367.54,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 899.1,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 1478.27,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Витим",
+    "street": "бул. Бабушкина",
+    "house": "5/2",
+    "apartment": "47",
+    "postal_code": "264111"
+  },
+  "purchase_datetime": "2025-07-21T14:47:50.952689"
+}

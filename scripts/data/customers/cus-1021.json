@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1021",
+  "first_name": "Екатерина",
+  "last_name": "Некрасова",
+  "email": "prokofi_46@example.com",
+  "phone": "8 582 614 9197",
+  "birth_date": "1983-11-11",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.913294",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-289A35E320",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "г. Волгодонск",
+    "street": "ул. Малая",
+    "house": "3",
+    "postal_code": "863243",
+    "coordinates": {
+      "latitude": 40.374475,
+      "longitude": 95.835564
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Волгодонск",
+    "street": "алл. Веселая",
+    "house": "1",
+    "apartment": "41",
+    "postal_code": "700133"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

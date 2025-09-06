@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00171",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Капитон",
+    "last_name": "Архипова"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на пр. Малый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Южно-Курильск",
+      "street": "ш. Гоголя",
+      "house": "437",
+      "postal_code": "759054",
+      "coordinates": {
+        "latitude": 58.3805675,
+        "longitude": 128.70826
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 183.45,
+      "total_price": 917.25,
+      "kbju": {
+        "calories": 205.3,
+        "protein": 11.6,
+        "fat": 2.6,
+        "carbohydrates": 42.0
+      },
+      "manufacturer": {
+        "name": "Байер",
+        "country": "Россия",
+        "website": "https://npo.info",
+        "inn": "4994631194"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 846.52,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 1763.77,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Соль-Илецк",
+    "street": "ул. Матросова",
+    "house": "4",
+    "apartment": "36",
+    "postal_code": "464933"
+  },
+  "purchase_datetime": "2025-06-25T14:47:50.971967"
+}

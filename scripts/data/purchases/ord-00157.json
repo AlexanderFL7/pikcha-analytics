@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00157",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Кондратий",
+    "last_name": "Наумов"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Карла Либкнехта",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Котлас",
+      "street": "пр. Зеленый",
+      "house": "3/4",
+      "postal_code": "718054",
+      "coordinates": {
+        "latitude": 82.3577365,
+        "longitude": -59.047265
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 1198.8,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 717.06,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    }
+  ],
+  "total_amount": 1915.86,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шенкурск",
+    "street": "ш. Войкова",
+    "house": "7",
+    "apartment": "39",
+    "postal_code": "436955"
+  },
+  "purchase_datetime": "2025-08-28T14:47:50.967831"
+}

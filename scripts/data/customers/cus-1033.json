@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1033",
+  "first_name": "Аркадий",
+  "last_name": "Максимова",
+  "email": "bogdanovstojan@example.net",
+  "phone": "8 628 664 3977",
+  "birth_date": "2002-04-24",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.917350",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-C83C1D1DB3",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Всеволожск",
+    "street": "ш. Клары Цеткин",
+    "house": "1",
+    "postal_code": "412397",
+    "coordinates": {
+      "latitude": -73.3710385,
+      "longitude": 49.94916
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Всеволожск",
+    "street": "бул. Дачный",
+    "house": "633",
+    "apartment": "71",
+    "postal_code": "179208"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

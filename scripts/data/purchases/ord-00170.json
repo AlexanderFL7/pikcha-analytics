@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00170",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Капитон",
+    "last_name": "Архипова"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на ш. Толстого",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Данков",
+      "street": "пер. Саратовский",
+      "house": "568",
+      "postal_code": "563249",
+      "coordinates": {
+        "latitude": -0.3318505,
+        "longitude": -43.336181
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 636.06,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 551.31,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Идея",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 58.27,
+      "total_price": 291.35,
+      "kbju": {
+        "calories": 168.9,
+        "protein": 19.7,
+        "fat": 7.7,
+        "carbohydrates": 23.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Пономарев, Петухова и Емельянова»",
+        "country": "Россия",
+        "website": "https://tsvetkova.edu",
+        "inn": "3148592343"
+      }
+    }
+  ],
+  "total_amount": 1478.72,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Соль-Илецк",
+    "street": "ул. Матросова",
+    "house": "4",
+    "apartment": "36",
+    "postal_code": "464933"
+  },
+  "purchase_datetime": "2025-08-01T14:47:50.971644"
+}

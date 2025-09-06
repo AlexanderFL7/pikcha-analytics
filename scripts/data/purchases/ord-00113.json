@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00113",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Добромысл",
+    "last_name": "Овчинников"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на бул. Горняцкий",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Армавир",
+      "street": "бул. Социалистический",
+      "house": "5/9",
+      "postal_code": "699032",
+      "coordinates": {
+        "latitude": -35.5031175,
+        "longitude": 11.508997
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 573.21,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    }
+  ],
+  "total_amount": 573.21,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Колпашево",
+    "street": "наб. Тимирязева",
+    "house": "849",
+    "apartment": "2",
+    "postal_code": "223052"
+  },
+  "purchase_datetime": "2025-06-17T14:47:50.955204"
+}

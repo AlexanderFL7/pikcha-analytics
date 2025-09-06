@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00124",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Ким",
+    "last_name": "Евсеева"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пер. Коллективный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Нижний Тагил",
+      "street": "наб. Промышленная",
+      "house": "9/7",
+      "postal_code": "826135",
+      "coordinates": {
+        "latitude": 34.883193,
+        "longitude": -99.553865
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Грудь",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 94.97,
+      "total_price": 379.88,
+      "kbju": {
+        "calories": 131.1,
+        "protein": 1.5,
+        "fat": 0.1,
+        "carbohydrates": 10.3
+      },
+      "manufacturer": {
+        "name": "Фирма Агрокомплекс им. Ткачева",
+        "country": "Россия",
+        "website": "https://rao.net",
+        "inn": "7716746089"
+      }
+    }
+  ],
+  "total_amount": 379.88,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Витим",
+    "street": "бул. Бабушкина",
+    "house": "5/2",
+    "apartment": "47",
+    "postal_code": "264111"
+  },
+  "purchase_datetime": "2025-07-29T14:47:50.958628"
+}

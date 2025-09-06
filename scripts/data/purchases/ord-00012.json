@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00012",
+  "customer": {
+    "customer_id": "cus-1025",
+    "first_name": "Любовь",
+    "last_name": "Наумов"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ул. Мостовая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Витим",
+      "street": "бул. Маяковского",
+      "house": "91",
+      "postal_code": "590395",
+      "coordinates": {
+        "latitude": 65.8528805,
+        "longitude": -17.010245
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 478.04,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    }
+  ],
+  "total_amount": 478.04,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Валаам",
+    "street": "пер. Главный",
+    "house": "78",
+    "apartment": "29",
+    "postal_code": "179666"
+  },
+  "purchase_datetime": "2025-06-11T14:47:50.925121"
+}

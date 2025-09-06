@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00063",
+  "customer": {
+    "customer_id": "cus-1026",
+    "first_name": "Пелагея",
+    "last_name": "Алексеева"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на пр. Иванова",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Балтийск",
+      "street": "пр. Магистральный",
+      "house": "91",
+      "postal_code": "643948",
+      "coordinates": {
+        "latitude": 67.1264105,
+        "longitude": 31.50276
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 573.21,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 748.44,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Еврейский",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 240.27,
+      "total_price": 1201.35,
+      "kbju": {
+        "calories": 197.3,
+        "protein": 15.2,
+        "fat": 3.5,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "АО «Галкина Журавлева»",
+        "country": "Россия",
+        "website": "https://raffazenbank.org",
+        "inn": "0411464816"
+      }
+    }
+  ],
+  "total_amount": 2523.0,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Бирск",
+    "street": "наб. Уральская",
+    "house": "9",
+    "apartment": "87",
+    "postal_code": "751975"
+  },
+  "purchase_datetime": "2025-08-10T14:47:50.940117"
+}

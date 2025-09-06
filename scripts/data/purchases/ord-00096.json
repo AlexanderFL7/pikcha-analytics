@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00096",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Федосий",
+    "last_name": "Моисеева"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на алл. Космическая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Смоленск",
+      "street": "пер. Просвещения",
+      "house": "574",
+      "postal_code": "560362",
+      "coordinates": {
+        "latitude": -67.4348275,
+        "longitude": -113.027828
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 1498.5,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 764.28,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Князь",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 263.68,
+      "total_price": 791.04,
+      "kbju": {
+        "calories": 238.3,
+        "protein": 7.2,
+        "fat": 12.5,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ООО «Зыкова Новикова»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "0338967200"
+      }
+    }
+  ],
+  "total_amount": 3053.82,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Кирово-Чепецк",
+    "street": "пр. Кольцова",
+    "house": "70",
+    "apartment": "14",
+    "postal_code": "070252"
+  },
+  "purchase_datetime": "2025-07-18T14:47:50.950023"
+}

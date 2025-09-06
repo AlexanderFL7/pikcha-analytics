@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00189",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Мстислав",
+    "last_name": "Кондратьев"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Карла Либкнехта",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Котлас",
+      "street": "пр. Зеленый",
+      "house": "3/4",
+      "postal_code": "718054",
+      "coordinates": {
+        "latitude": 82.3577365,
+        "longitude": -59.047265
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 32.67,
+      "total_price": 65.34,
+      "kbju": {
+        "calories": 154.6,
+        "protein": 11.0,
+        "fat": 10.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "АО «Одинцова, Копылова и Тетерина»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "2351044440"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Дрогнуть",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 126.75,
+      "total_price": 633.75,
+      "kbju": {
+        "calories": 174.5,
+        "protein": 3.7,
+        "fat": 1.9,
+        "carbohydrates": 2.7
+      },
+      "manufacturer": {
+        "name": "РАО «Никонова-Меркушева»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "0031992196"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 423.26,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 1122.35,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Балтийск",
+    "street": "ул. Большевистская",
+    "house": "54",
+    "apartment": "51",
+    "postal_code": "577770"
+  },
+  "purchase_datetime": "2025-08-05T14:47:50.977004"
+}

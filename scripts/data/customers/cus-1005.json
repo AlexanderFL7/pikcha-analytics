@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1005",
+  "first_name": "Гедеон",
+  "last_name": "Трофимова",
+  "email": "samuil_1998@example.org",
+  "phone": "+73717596653",
+  "birth_date": "1976-09-26",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.908042",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-AC1A48BEF2",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Орск",
+    "street": "пр. Прудный",
+    "house": "1",
+    "postal_code": "060402",
+    "coordinates": {
+      "latitude": 8.6331395,
+      "longitude": 135.50253
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Орск",
+    "street": "алл. Запорожская",
+    "house": "1/8",
+    "apartment": "31",
+    "postal_code": "332551"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

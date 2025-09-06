@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00112",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Ефим",
+    "last_name": "Корнилов"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Пушкинская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Кунгур",
+      "street": "ш. Моховое",
+      "house": "12",
+      "postal_code": "257087",
+      "coordinates": {
+        "latitude": 55.5181055,
+        "longitude": 20.301695
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 636.06,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    }
+  ],
+  "total_amount": 636.06,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Котлас",
+    "street": "ш. Орджоникидзе",
+    "house": "18",
+    "apartment": "78",
+    "postal_code": "718992"
+  },
+  "purchase_datetime": "2025-08-06T14:47:50.954943"
+}

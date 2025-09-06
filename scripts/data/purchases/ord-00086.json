@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00086",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Любовь",
+    "last_name": "Устинов"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на алл. Верхняя",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Нефедова",
+      "street": "ул. Васильковая",
+      "house": "1",
+      "postal_code": "307935",
+      "coordinates": {
+        "latitude": -52.6459585,
+        "longitude": -88.822006
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Проход",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 292.41,
+      "total_price": 1462.05,
+      "kbju": {
+        "calories": 51.6,
+        "protein": 18.0,
+        "fat": 4.1,
+        "carbohydrates": 47.4
+      },
+      "manufacturer": {
+        "name": "Назарова Лтд",
+        "country": "Россия",
+        "website": "https://ip.edu",
+        "inn": "0450473836"
+      }
+    }
+  ],
+  "total_amount": 1462.05,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Нефедова",
+    "street": "пр. Рылеева",
+    "house": "1/6",
+    "apartment": "48",
+    "postal_code": "573400"
+  },
+  "purchase_datetime": "2025-06-20T14:47:50.947215"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1018",
+  "first_name": "Станислав",
+  "last_name": "Зуев",
+  "email": "klavdinovikov@example.org",
+  "phone": "+73878866350",
+  "birth_date": "1983-03-29",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.912352",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-1F6AB545F2",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Красновишерск",
+    "street": "пр. Сурикова",
+    "house": "22",
+    "postal_code": "226655",
+    "coordinates": {
+      "latitude": 60.8256905,
+      "longitude": 82.233361
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Красновишерск",
+    "street": "наб. Добролюбова",
+    "house": "1",
+    "apartment": "30",
+    "postal_code": "546948"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

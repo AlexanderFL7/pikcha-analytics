@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00017",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Сила",
+    "last_name": "Сафонов"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Покровская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Соликамск",
+      "street": "ул. Победы",
+      "house": "9/4",
+      "postal_code": "754100",
+      "coordinates": {
+        "latitude": 57.2343735,
+        "longitude": 107.20687
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 211.63,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 211.63,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Красноярск",
+    "street": "пр. Заречный",
+    "house": "6",
+    "apartment": "25",
+    "postal_code": "680818"
+  },
+  "purchase_datetime": "2025-06-29T14:47:50.926561"
+}

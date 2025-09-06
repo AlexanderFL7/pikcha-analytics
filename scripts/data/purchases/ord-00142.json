@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00142",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Юлия",
+    "last_name": "Белозерова"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Карла Либкнехта",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Котлас",
+      "street": "пр. Зеленый",
+      "house": "3/4",
+      "postal_code": "718054",
+      "coordinates": {
+        "latitude": 82.3577365,
+        "longitude": -59.047265
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Идея",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 58.27,
+      "total_price": 291.35,
+      "kbju": {
+        "calories": 168.9,
+        "protein": 19.7,
+        "fat": 7.7,
+        "carbohydrates": 23.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Пономарев, Петухова и Емельянова»",
+        "country": "Россия",
+        "website": "https://tsvetkova.edu",
+        "inn": "3148592343"
+      }
+    }
+  ],
+  "total_amount": 291.35,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Данков",
+    "street": "пр. Ленинский",
+    "house": "6",
+    "apartment": "53",
+    "postal_code": "284353"
+  },
+  "purchase_datetime": "2025-06-18T14:47:50.963680"
+}

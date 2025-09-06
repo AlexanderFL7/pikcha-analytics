@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00013",
+  "customer": {
+    "customer_id": "cus-1029",
+    "first_name": "Филарет",
+    "last_name": "Коновалов"
+  },
+  "store": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на пр. Разина",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Поярково",
+      "street": "ш. Социалистическое",
+      "house": "7/2",
+      "postal_code": "453224",
+      "coordinates": {
+        "latitude": 4.818498,
+        "longitude": 82.80422
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 32.67,
+      "total_price": 32.67,
+      "kbju": {
+        "calories": 154.6,
+        "protein": 11.0,
+        "fat": 10.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "АО «Одинцова, Копылова и Тетерина»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "2351044440"
+      }
+    }
+  ],
+  "total_amount": 32.67,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Новая Игирма",
+    "street": "наб. Жукова",
+    "house": "1/5",
+    "apartment": "59",
+    "postal_code": "546025"
+  },
+  "purchase_datetime": "2025-07-10T14:47:50.925403"
+}

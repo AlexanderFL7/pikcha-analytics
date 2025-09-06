@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00068",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Нина",
+    "last_name": "Денисов"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пер. Коллективный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Нижний Тагил",
+      "street": "наб. Промышленная",
+      "house": "9/7",
+      "postal_code": "826135",
+      "coordinates": {
+        "latitude": 34.883193,
+        "longitude": -99.553865
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 183.45,
+      "total_price": 550.35,
+      "kbju": {
+        "calories": 205.3,
+        "protein": 11.6,
+        "fat": 2.6,
+        "carbohydrates": 42.0
+      },
+      "manufacturer": {
+        "name": "Байер",
+        "country": "Россия",
+        "website": "https://npo.info",
+        "inn": "4994631194"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 717.06,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Еврейский",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 240.27,
+      "total_price": 480.54,
+      "kbju": {
+        "calories": 197.3,
+        "protein": 15.2,
+        "fat": 3.5,
+        "carbohydrates": 17.0
+      },
+      "manufacturer": {
+        "name": "АО «Галкина Журавлева»",
+        "country": "Россия",
+        "website": "https://raffazenbank.org",
+        "inn": "0411464816"
+      }
+    }
+  ],
+  "total_amount": 1747.95,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Нижний Тагил",
+    "street": "бул. Авиационный",
+    "house": "3/7",
+    "apartment": "18",
+    "postal_code": "908585"
+  },
+  "purchase_datetime": "2025-08-23T14:47:50.941649"
+}

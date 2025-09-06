@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00024",
+  "customer": {
+    "customer_id": "cus-1021",
+    "first_name": "Екатерина",
+    "last_name": "Некрасова"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на пр. Ивановский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Шенкурск",
+      "street": "наб. Лазурная",
+      "house": "8/4",
+      "postal_code": "877860",
+      "coordinates": {
+        "latitude": 88.1494125,
+        "longitude": 177.254759
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Грудь",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 94.97,
+      "total_price": 379.88,
+      "kbju": {
+        "calories": 131.1,
+        "protein": 1.5,
+        "fat": 0.1,
+        "carbohydrates": 10.3
+      },
+      "manufacturer": {
+        "name": "Фирма Агрокомплекс им. Ткачева",
+        "country": "Россия",
+        "website": "https://rao.net",
+        "inn": "7716746089"
+      }
+    }
+  ],
+  "total_amount": 379.88,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Волгодонск",
+    "street": "алл. Веселая",
+    "house": "1",
+    "apartment": "41",
+    "postal_code": "700133"
+  },
+  "purchase_datetime": "2025-08-20T14:47:50.928525"
+}

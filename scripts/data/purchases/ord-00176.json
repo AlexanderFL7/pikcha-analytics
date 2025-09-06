@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00176",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Гурий",
+    "last_name": "Шаров"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на бул. Красногвардейский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Орск",
+      "street": "пр. Прудный",
+      "house": "1",
+      "postal_code": "060402",
+      "coordinates": {
+        "latitude": 8.6331395,
+        "longitude": 135.50253
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Грудь",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 94.97,
+      "total_price": 379.88,
+      "kbju": {
+        "calories": 131.1,
+        "protein": 1.5,
+        "fat": 0.1,
+        "carbohydrates": 10.3
+      },
+      "manufacturer": {
+        "name": "Фирма Агрокомплекс им. Ткачева",
+        "country": "Россия",
+        "website": "https://rao.net",
+        "inn": "7716746089"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 1247.4,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Валюта",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 191.07,
+      "total_price": 573.21,
+      "kbju": {
+        "calories": 275.4,
+        "protein": 8.6,
+        "fat": 0.9,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ИП «Андреев Зайцев»",
+        "country": "Россия",
+        "website": "https://oao.info",
+        "inn": "5439871878"
+      }
+    }
+  ],
+  "total_amount": 2200.49,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Алексин",
+    "street": "алл. Тельмана",
+    "house": "6/1",
+    "apartment": "14",
+    "postal_code": "187353"
+  },
+  "purchase_datetime": "2025-08-13T14:47:50.973467"
+}

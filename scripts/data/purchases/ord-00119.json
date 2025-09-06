@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00119",
+  "customer": {
+    "customer_id": "cus-1001",
+    "first_name": "Леонтий",
+    "last_name": "Колобова"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на бул. Физкультурный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Аргаяш",
+      "street": "пер. Строителей",
+      "house": "7",
+      "postal_code": "589947",
+      "coordinates": {
+        "latitude": -10.4748555,
+        "longitude": -109.72261
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Ярко",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 112.77,
+      "total_price": 563.85,
+      "kbju": {
+        "calories": 255.7,
+        "protein": 19.3,
+        "fat": 9.1,
+        "carbohydrates": 44.8
+      },
+      "manufacturer": {
+        "name": "ЗАО «Фомичева Потапов»",
+        "country": "Россия",
+        "website": "https://komarov.info",
+        "inn": "9954826192"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 239.02,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    }
+  ],
+  "total_amount": 802.87,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Елец",
+    "street": "ул. Малая",
+    "house": "2",
+    "apartment": "82",
+    "postal_code": "308062"
+  },
+  "purchase_datetime": "2025-08-22T14:47:50.957004"
+}

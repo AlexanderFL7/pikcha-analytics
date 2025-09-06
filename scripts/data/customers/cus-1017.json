@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1017",
+  "first_name": "Кондратий",
+  "last_name": "Наумов",
+  "email": "milen1999@example.net",
+  "phone": "8 307 177 01 01",
+  "birth_date": "2004-10-30",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.911944",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-5A1ADEA60D",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Шенкурск",
+    "street": "наб. Лазурная",
+    "house": "8/4",
+    "postal_code": "877860",
+    "coordinates": {
+      "latitude": 88.1494125,
+      "longitude": 177.254759
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шенкурск",
+    "street": "ш. Войкова",
+    "house": "7",
+    "apartment": "39",
+    "postal_code": "436955"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

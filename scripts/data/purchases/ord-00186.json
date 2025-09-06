@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00186",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Милан",
+    "last_name": "Филиппов"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на наб. Космодемьянской",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Киренск",
+      "street": "ул. Воровского",
+      "house": "629",
+      "postal_code": "962077",
+      "coordinates": {
+        "latitude": -63.2219525,
+        "longitude": -21.681099
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Ярко",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 112.77,
+      "total_price": 563.85,
+      "kbju": {
+        "calories": 255.7,
+        "protein": 19.3,
+        "fat": 9.1,
+        "carbohydrates": 44.8
+      },
+      "manufacturer": {
+        "name": "ЗАО «Фомичева Потапов»",
+        "country": "Россия",
+        "website": "https://komarov.info",
+        "inn": "9954826192"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Госпожа",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 212.02,
+      "total_price": 212.02,
+      "kbju": {
+        "calories": 78.0,
+        "protein": 3.8,
+        "fat": 2.2,
+        "carbohydrates": 11.8
+      },
+      "manufacturer": {
+        "name": "РАО «Ширяев»",
+        "country": "Россия",
+        "website": "https://nk.info",
+        "inn": "9989066065"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 997.92,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    }
+  ],
+  "total_amount": 1773.79,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Астрахань",
+    "street": "бул. Степана Разина",
+    "house": "71",
+    "apartment": "48",
+    "postal_code": "935121"
+  },
+  "purchase_datetime": "2025-08-22T14:47:50.976113"
+}

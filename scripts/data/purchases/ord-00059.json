@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00059",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Эрнест",
+    "last_name": "Самойлов"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на пр. Колхозный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Самара",
+      "street": "ул. Журавлева",
+      "house": "2/6",
+      "postal_code": "737502",
+      "coordinates": {
+        "latitude": -83.7555685,
+        "longitude": -147.842716
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Основание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 299.7,
+      "total_price": 599.4,
+      "kbju": {
+        "calories": 257.0,
+        "protein": 3.5,
+        "fat": 14.6,
+        "carbohydrates": 9.1
+      },
+      "manufacturer": {
+        "name": "Веселов Групп",
+        "country": "Россия",
+        "website": "https://lobanov.edu",
+        "inn": "0500135658"
+      }
+    }
+  ],
+  "total_amount": 599.4,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Соликамск",
+    "street": "наб. Нижняя",
+    "house": "75",
+    "apartment": "86",
+    "postal_code": "934367"
+  },
+  "purchase_datetime": "2025-08-18T14:47:50.939044"
+}

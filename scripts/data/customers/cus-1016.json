@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1016",
+  "first_name": "Вера",
+  "last_name": "Якушева",
+  "email": "vasili1984@example.com",
+  "phone": "8 599 125 74 84",
+  "birth_date": "1967-10-09",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.911588",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-DA4894BF17",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Кунгур",
+    "street": "ш. Моховое",
+    "house": "12",
+    "postal_code": "257087",
+    "coordinates": {
+      "latitude": 55.5181055,
+      "longitude": 20.301695
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Кунгур",
+    "street": "ул. Просвещения",
+    "house": "3",
+    "apartment": "47",
+    "postal_code": "275592"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

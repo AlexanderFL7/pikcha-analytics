@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00190",
+  "customer": {
+    "customer_id": "cus-1029",
+    "first_name": "Филарет",
+    "last_name": "Коновалов"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на ш. Володарского",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Казань",
+      "street": "ш. Леваневского",
+      "house": "797",
+      "postal_code": "250193",
+      "coordinates": {
+        "latitude": 41.11672,
+        "longitude": 22.341622
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Князь",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 263.68,
+      "total_price": 527.36,
+      "kbju": {
+        "calories": 238.3,
+        "protein": 7.2,
+        "fat": 12.5,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ООО «Зыкова Новикова»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "0338967200"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 367.54,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    }
+  ],
+  "total_amount": 894.9,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Новая Игирма",
+    "street": "наб. Жукова",
+    "house": "1/5",
+    "apartment": "59",
+    "postal_code": "546025"
+  },
+  "purchase_datetime": "2025-07-08T14:47:50.977488"
+}

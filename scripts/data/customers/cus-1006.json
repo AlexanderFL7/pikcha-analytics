@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1006",
+  "first_name": "Яков",
+  "last_name": "Бобылева",
+  "email": "oksana63@example.net",
+  "phone": "8 294 718 9222",
+  "birth_date": "1967-07-23",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.908350",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-DE03FECF82",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Шерегеш",
+    "street": "пр. Овражный",
+    "house": "4",
+    "postal_code": "590647",
+    "coordinates": {
+      "latitude": 26.761832,
+      "longitude": 149.405428
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Шерегеш",
+    "street": "пер. Белинского",
+    "house": "60",
+    "apartment": "64",
+    "postal_code": "067823"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1024",
+  "first_name": "Милан",
+  "last_name": "Филиппов",
+  "email": "solomongorshkov@example.net",
+  "phone": "89964702249",
+  "birth_date": "1956-12-23",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.914246",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-3CE4E364B9",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "д. Астрахань",
+    "street": "пр. Черняховского",
+    "house": "871",
+    "postal_code": "288822",
+    "coordinates": {
+      "latitude": 7.5628275,
+      "longitude": -45.079335
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Астрахань",
+    "street": "бул. Степана Разина",
+    "house": "71",
+    "apartment": "48",
+    "postal_code": "935121"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

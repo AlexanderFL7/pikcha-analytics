@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1043",
+  "first_name": "Капитон",
+  "last_name": "Архипова",
+  "email": "afanasevaagata@example.org",
+  "phone": "8 680 756 4059",
+  "birth_date": "1985-09-13",
+  "gender": "female",
+  "registration_date": "2025-09-06T14:47:50.920927",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-ADCAB2D258",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Соль-Илецк",
+    "street": "бул. Дачный",
+    "house": "22",
+    "postal_code": "708384",
+    "coordinates": {
+      "latitude": 9.4707095,
+      "longitude": 79.959286
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Соль-Илецк",
+    "street": "ул. Матросова",
+    "house": "4",
+    "apartment": "36",
+    "postal_code": "464933"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

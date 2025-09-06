@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00091",
+  "customer": {
+    "customer_id": "cus-1038",
+    "first_name": "Федосий",
+    "last_name": "Моисеева"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на наб. Пушкинская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Кунгур",
+      "street": "ш. Моховое",
+      "house": "12",
+      "postal_code": "257087",
+      "coordinates": {
+        "latitude": 55.5181055,
+        "longitude": 20.301695
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 956.08,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Идея",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 58.27,
+      "total_price": 233.08,
+      "kbju": {
+        "calories": 168.9,
+        "protein": 19.7,
+        "fat": 7.7,
+        "carbohydrates": 23.4
+      },
+      "manufacturer": {
+        "name": "ОАО «Пономарев, Петухова и Емельянова»",
+        "country": "Россия",
+        "website": "https://tsvetkova.edu",
+        "inn": "3148592343"
+      }
+    }
+  ],
+  "total_amount": 1189.16,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Кирово-Чепецк",
+    "street": "пр. Кольцова",
+    "house": "70",
+    "apartment": "14",
+    "postal_code": "070252"
+  },
+  "purchase_datetime": "2025-08-19T14:47:50.948565"
+}

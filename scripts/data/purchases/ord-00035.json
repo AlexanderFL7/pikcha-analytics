@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00035",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Гурий",
+    "last_name": "Шаров"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на бул. Мелиораторов",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Муравленко",
+      "street": "алл. Мелиораторов",
+      "house": "41",
+      "postal_code": "490867",
+      "coordinates": {
+        "latitude": -64.166555,
+        "longitude": -54.943548
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Разуметься",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 227.39,
+      "total_price": 682.17,
+      "kbju": {
+        "calories": 56.5,
+        "protein": 15.5,
+        "fat": 14.9,
+        "carbohydrates": 1.3
+      },
+      "manufacturer": {
+        "name": "РАО «Белоусова Ермаков»",
+        "country": "Россия",
+        "website": "https://ao.ru",
+        "inn": "0914245584"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 918.85,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 498.96,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    }
+  ],
+  "total_amount": 2099.98,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Алексин",
+    "street": "алл. Тельмана",
+    "house": "6/1",
+    "apartment": "14",
+    "postal_code": "187353"
+  },
+  "purchase_datetime": "2025-08-31T14:47:50.931481"
+}

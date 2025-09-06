@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00049",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Аркадий",
+    "last_name": "Максимова"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Карла Либкнехта",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Котлас",
+      "street": "пр. Зеленый",
+      "house": "3/4",
+      "postal_code": "718054",
+      "coordinates": {
+        "latitude": 82.3577365,
+        "longitude": -59.047265
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Намерение",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 239.02,
+      "total_price": 239.02,
+      "kbju": {
+        "calories": 209.4,
+        "protein": 15.5,
+        "fat": 11.6,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "Данилова Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://asr-uglesbit.ru",
+        "inn": "4524161956"
+      }
+    }
+  ],
+  "total_amount": 239.02,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Всеволожск",
+    "street": "бул. Дачный",
+    "house": "633",
+    "apartment": "71",
+    "postal_code": "179208"
+  },
+  "purchase_datetime": "2025-08-30T14:47:50.935642"
+}

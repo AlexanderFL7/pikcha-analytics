@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00029",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Фома",
+    "last_name": "Борисов"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на алл. Верхняя",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Нефедова",
+      "street": "ул. Васильковая",
+      "house": "1",
+      "postal_code": "307935",
+      "coordinates": {
+        "latitude": -52.6459585,
+        "longitude": -88.822006
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Уточнить",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 295.27,
+      "total_price": 1181.08,
+      "kbju": {
+        "calories": 142.7,
+        "protein": 8.5,
+        "fat": 5.6,
+        "carbohydrates": 35.4
+      },
+      "manufacturer": {
+        "name": "ИП «Богданова»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "2560697103"
+      }
+    }
+  ],
+  "total_amount": 1181.08,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Аргаяш",
+    "street": "ул. Рябиновая",
+    "house": "1/3",
+    "apartment": "23",
+    "postal_code": "169968"
+  },
+  "purchase_datetime": "2025-07-07T14:47:50.929839"
+}

@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00110",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Прокл",
+    "last_name": "Гущин"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ш. Луначарского",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Соликамск",
+      "street": "пер. Бажова",
+      "house": "194",
+      "postal_code": "162105",
+      "coordinates": {
+        "latitude": 86.0626665,
+        "longitude": 39.236424
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Уточнить",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 295.27,
+      "total_price": 1476.35,
+      "kbju": {
+        "calories": 142.7,
+        "protein": 8.5,
+        "fat": 5.6,
+        "carbohydrates": 35.4
+      },
+      "manufacturer": {
+        "name": "ИП «Богданова»",
+        "country": "Россия",
+        "website": "https://zao.edu",
+        "inn": "2560697103"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Премьера",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 249.48,
+      "total_price": 498.96,
+      "kbju": {
+        "calories": 235.7,
+        "protein": 2.0,
+        "fat": 2.8,
+        "carbohydrates": 34.5
+      },
+      "manufacturer": {
+        "name": "ИП «Одинцова, Агафонова и Кириллова»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "8311057887"
+      }
+    }
+  ],
+  "total_amount": 1975.31,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Шенкурск",
+    "street": "пер. Индустриальный",
+    "house": "830",
+    "apartment": "39",
+    "postal_code": "674444"
+  },
+  "purchase_datetime": "2025-08-06T14:47:50.954367"
+}

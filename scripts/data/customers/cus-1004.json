@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1004",
+  "first_name": "Эрнест",
+  "last_name": "Самойлов",
+  "email": "jakovlevvadim@example.com",
+  "phone": "8 488 931 46 32",
+  "birth_date": "1989-08-25",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.907698",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-107767297C",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Соликамск",
+    "street": "пер. Бажова",
+    "house": "194",
+    "postal_code": "162105",
+    "coordinates": {
+      "latitude": 86.0626665,
+      "longitude": 39.236424
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Соликамск",
+    "street": "наб. Нижняя",
+    "house": "75",
+    "apartment": "86",
+    "postal_code": "934367"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

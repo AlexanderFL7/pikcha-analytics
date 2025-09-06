@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1013",
+  "first_name": "Олимпий",
+  "last_name": "Лаврентьев",
+  "email": "vladimir97@example.com",
+  "phone": "8 631 574 51 50",
+  "birth_date": "1968-06-23",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.910616",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-500DBA8206",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Дудинка",
+    "street": "пер. Металлургов",
+    "house": "3",
+    "postal_code": "459159",
+    "coordinates": {
+      "latitude": -75.8269805,
+      "longitude": -75.154651
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Дудинка",
+    "street": "бул. Одесский",
+    "house": "137",
+    "apartment": "35",
+    "postal_code": "995321"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

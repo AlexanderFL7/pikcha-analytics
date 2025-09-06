@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00146",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Юлия",
+    "last_name": "Белозерова"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на бул. Физкультурный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Соль-Илецк",
+      "street": "бул. Дачный",
+      "house": "22",
+      "postal_code": "708384",
+      "coordinates": {
+        "latitude": 9.4707095,
+        "longitude": 79.959286
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 32.67,
+      "total_price": 130.68,
+      "kbju": {
+        "calories": 154.6,
+        "protein": 11.0,
+        "fat": 10.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "АО «Одинцова, Копылова и Тетерина»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "2351044440"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Академик",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 211.63,
+      "total_price": 423.26,
+      "kbju": {
+        "calories": 185.2,
+        "protein": 12.9,
+        "fat": 7.0,
+        "carbohydrates": 12.1
+      },
+      "manufacturer": {
+        "name": "ООО «Доронина»",
+        "country": "Россия",
+        "website": "https://oao.com",
+        "inn": "4476984039"
+      }
+    }
+  ],
+  "total_amount": 553.94,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Данков",
+    "street": "пр. Ленинский",
+    "house": "6",
+    "apartment": "53",
+    "postal_code": "284353"
+  },
+  "purchase_datetime": "2025-07-30T14:47:50.964727"
+}

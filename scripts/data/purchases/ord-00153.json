@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00153",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Ерофей",
+    "last_name": "Ширяев"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на алл. Надежды",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Орел",
+      "street": "алл. Советская",
+      "house": "93",
+      "postal_code": "178470",
+      "coordinates": {
+        "latitude": -18.705495,
+        "longitude": 130.459257
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Ярко",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 112.77,
+      "total_price": 112.77,
+      "kbju": {
+        "calories": 255.7,
+        "protein": 19.3,
+        "fat": 9.1,
+        "carbohydrates": 44.8
+      },
+      "manufacturer": {
+        "name": "ЗАО «Фомичева Потапов»",
+        "country": "Россия",
+        "website": "https://komarov.info",
+        "inn": "9954826192"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Доставать",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 183.77,
+      "total_price": 735.08,
+      "kbju": {
+        "calories": 168.7,
+        "protein": 11.4,
+        "fat": 5.2,
+        "carbohydrates": 27.6
+      },
+      "manufacturer": {
+        "name": "Голубев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "1130792093"
+      }
+    }
+  ],
+  "total_amount": 847.85,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "наб. Лермонтова",
+    "house": "6/2",
+    "apartment": "79",
+    "postal_code": "936362"
+  },
+  "purchase_datetime": "2025-07-18T14:47:50.966609"
+}

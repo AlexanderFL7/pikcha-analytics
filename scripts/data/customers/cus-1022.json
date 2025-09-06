@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1022",
+  "first_name": "Добромысл",
+  "last_name": "Овчинников",
+  "email": "seliverstovaakulina@example.org",
+  "phone": "8 143 198 06 77",
+  "birth_date": "1981-02-23",
+  "gender": "male",
+  "registration_date": "2025-09-06T14:47:50.913613",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E601CAD344",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Колпашево",
+    "street": "пер. Красноармейский",
+    "house": "4",
+    "postal_code": "790999",
+    "coordinates": {
+      "latitude": -56.950815,
+      "longitude": -62.375784
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Колпашево",
+    "street": "наб. Тимирязева",
+    "house": "849",
+    "apartment": "2",
+    "postal_code": "223052"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

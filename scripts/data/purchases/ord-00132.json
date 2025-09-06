@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00132",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Ерофей",
+    "last_name": "Ширяев"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ш. Песчаное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Смоленск",
+      "street": "ш. Павлова",
+      "house": "32",
+      "postal_code": "292235",
+      "coordinates": {
+        "latitude": -51.10877,
+        "longitude": 6.883943
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Проход",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 292.41,
+      "total_price": 877.23,
+      "kbju": {
+        "calories": 51.6,
+        "protein": 18.0,
+        "fat": 4.1,
+        "carbohydrates": 47.4
+      },
+      "manufacturer": {
+        "name": "Назарова Лтд",
+        "country": "Россия",
+        "website": "https://ip.edu",
+        "inn": "0450473836"
+      }
+    }
+  ],
+  "total_amount": 877.23,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "наб. Лермонтова",
+    "house": "6/2",
+    "apartment": "79",
+    "postal_code": "936362"
+  },
+  "purchase_datetime": "2025-08-09T14:47:50.960882"
+}

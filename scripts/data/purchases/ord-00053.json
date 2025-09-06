@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00053",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Ерофей",
+    "last_name": "Ширяев"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на наб. Микрорайон",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Бирск",
+      "street": "ул. Павлика Морозова",
+      "house": "4",
+      "postal_code": "222219",
+      "coordinates": {
+        "latitude": -36.8934825,
+        "longitude": 45.392309
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Смелый",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 32.67,
+      "total_price": 65.34,
+      "kbju": {
+        "calories": 154.6,
+        "protein": 11.0,
+        "fat": 10.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "АО «Одинцова, Копылова и Тетерина»",
+        "country": "Россия",
+        "website": "https://npo.edu",
+        "inn": "2351044440"
+      }
+    }
+  ],
+  "total_amount": 65.34,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Смоленск",
+    "street": "наб. Лермонтова",
+    "house": "6/2",
+    "apartment": "79",
+    "postal_code": "936362"
+  },
+  "purchase_datetime": "2025-07-20T14:47:50.937312"
+}
