@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00056",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Руслан",
+    "last_name": "Иванова"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пер. Кошевого",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сергиев Посад",
+      "street": "пр. Северный",
+      "house": "940",
+      "postal_code": "385024",
+      "coordinates": {
+        "latitude": 23.3754115,
+        "longitude": 115.258416
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Вообще",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 99.89,
+      "total_price": 499.45,
+      "kbju": {
+        "calories": 246.2,
+        "protein": 1.2,
+        "fat": 4.1,
+        "carbohydrates": 13.7
+      },
+      "manufacturer": {
+        "name": "Центр финансовых технологий",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "1033506434"
+      }
+    }
+  ],
+  "total_amount": 499.45,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Санкт-Петербург",
+    "street": "наб. Строителей",
+    "house": "58",
+    "apartment": "61",
+    "postal_code": "346182"
+  },
+  "purchase_datetime": "2025-08-26T20:46:44.883236"
+}

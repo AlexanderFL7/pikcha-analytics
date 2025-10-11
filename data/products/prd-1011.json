@@ -1,0 +1,24 @@
+{
+  "id": "prd-1011",
+  "name": "Горький",
+  "group": "🥦🥦 Овощи и зелень",
+  "description": "Сутки правый экзамен пол.",
+  "kbju": {
+    "calories": 258.6,
+    "protein": 15.3,
+    "fat": 3.2,
+    "carbohydrates": 34.7
+  },
+  "price": 166.96,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": true,
+  "barcode": "2097915535732",
+  "manufacturer": {
+    "name": "ОАО «Беспалов Щукин»",
+    "country": "Россия",
+    "website": "https://kamaz.ru",
+    "inn": "1018195586"
+  }
+}

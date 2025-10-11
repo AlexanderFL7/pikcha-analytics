@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00180",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Евсей",
+    "last_name": "Беляков"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на бул. Тракторный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Пинега",
+      "street": "алл. Победы",
+      "house": "59",
+      "postal_code": "977602",
+      "coordinates": {
+        "latitude": -78.962288,
+        "longitude": 133.956041
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 366.09,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 651.0,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 471.3,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    }
+  ],
+  "total_amount": 1488.39,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Бодайбо",
+    "street": "бул. Красноармейский",
+    "house": "30",
+    "apartment": "83",
+    "postal_code": "595327"
+  },
+  "purchase_datetime": "2025-08-21T20:46:44.950429"
+}

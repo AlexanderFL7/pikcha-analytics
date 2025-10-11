@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00014",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Давыд",
+    "last_name": "Овчинникова"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пер. Энтузиастов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Энгельс",
+      "street": "наб. 30 лет Победы",
+      "house": "587",
+      "postal_code": "029096",
+      "coordinates": {
+        "latitude": 17.138524,
+        "longitude": 38.567382
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 270.5,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 706.95,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 110.26,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    }
+  ],
+  "total_amount": 1087.71,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "бул. Степана Разина",
+    "house": "9",
+    "apartment": "7",
+    "postal_code": "754571"
+  },
+  "purchase_datetime": "2025-09-14T20:46:44.860911"
+}

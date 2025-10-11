@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1003",
+  "first_name": "Михаил",
+  "last_name": "Лукин",
+  "email": "egorovhristofor@example.net",
+  "phone": "8 (635) 291-0799",
+  "birth_date": "1958-11-09",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.826800",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-A29FD7EF2A",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "г. Волгоград",
+    "street": "наб. Родниковая",
+    "house": "19",
+    "postal_code": "685015",
+    "coordinates": {
+      "latitude": 1.0525245,
+      "longitude": 67.713596
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Волгоград",
+    "street": "наб. Кооперативная",
+    "house": "15",
+    "apartment": "23",
+    "postal_code": "387393"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00139",
+  "customer": {
+    "customer_id": "cus-1011",
+    "first_name": "Валерия",
+    "last_name": "Терентьев"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ш. Заовражное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Волгоград",
+      "street": "наб. Родниковая",
+      "house": "19",
+      "postal_code": "685015",
+      "coordinates": {
+        "latitude": 1.0525245,
+        "longitude": 67.713596
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 235.18,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 281.88,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 286.2,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    }
+  ],
+  "total_amount": 803.26,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Калач-на-Дону",
+    "street": "ул. Сосновая",
+    "house": "9",
+    "apartment": "2",
+    "postal_code": "046166"
+  },
+  "purchase_datetime": "2025-08-30T20:46:44.927905"
+}

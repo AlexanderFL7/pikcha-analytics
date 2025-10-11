@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00110",
+  "customer": {
+    "customer_id": "cus-1032",
+    "first_name": "Эмиль",
+    "last_name": "Яковлева"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пер. Энтузиастов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Энгельс",
+      "street": "наб. 30 лет Победы",
+      "house": "587",
+      "postal_code": "029096",
+      "coordinates": {
+        "latitude": 17.138524,
+        "longitude": 38.567382
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 264.69,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 366.09,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 162.3,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    }
+  ],
+  "total_amount": 793.08,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сергиев Посад",
+    "street": "ш. Интернациональное",
+    "house": "2/1",
+    "apartment": "63",
+    "postal_code": "330309"
+  },
+  "purchase_datetime": "2025-08-27T20:46:44.912555"
+}

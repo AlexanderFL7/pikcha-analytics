@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1016",
+  "first_name": "Борис",
+  "last_name": "Абрамова",
+  "email": "belozerovnikifor@example.net",
+  "phone": "8 013 701 11 48",
+  "birth_date": "2002-12-09",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.834791",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-3E07C749AD",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Жигулевск",
+    "street": "наб. Гоголя",
+    "house": "50",
+    "postal_code": "716524",
+    "coordinates": {
+      "latitude": 83.971309,
+      "longitude": 11.626648
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Жигулевск",
+    "street": "ш. Ручейное",
+    "house": "27",
+    "apartment": "20",
+    "postal_code": "376990"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

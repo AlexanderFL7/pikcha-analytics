@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00177",
+  "customer": {
+    "customer_id": "cus-1006",
+    "first_name": "Илья",
+    "last_name": "Лебедев"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ш. Горняцкое",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Теберда",
+      "street": "ул. Приморская",
+      "house": "8",
+      "postal_code": "295305",
+      "coordinates": {
+        "latitude": 2.967955,
+        "longitude": -173.679652
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 985.9,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    }
+  ],
+  "total_amount": 985.9,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Юрьевец (Иван.)",
+    "street": "бул. Астраханский",
+    "house": "225",
+    "apartment": "91",
+    "postal_code": "184331"
+  },
+  "purchase_datetime": "2025-07-08T20:46:44.948656"
+}

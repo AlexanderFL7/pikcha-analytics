@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00170",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Феоктист",
+    "last_name": "Исакова"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на наб. Донская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Нефтекамск",
+      "street": "алл. Сосновая",
+      "house": "5/9",
+      "postal_code": "547548",
+      "coordinates": {
+        "latitude": -28.241329,
+        "longitude": 15.828393
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 264.69,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    }
+  ],
+  "total_amount": 264.69,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Культуры",
+    "house": "7/8",
+    "apartment": "80",
+    "postal_code": "630860"
+  },
+  "purchase_datetime": "2025-06-27T20:46:44.944873"
+}

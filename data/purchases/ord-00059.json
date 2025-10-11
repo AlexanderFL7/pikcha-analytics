@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00059",
+  "customer": {
+    "customer_id": "cus-1019",
+    "first_name": "Октябрина",
+    "last_name": "Лебедева"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пр. Веселый",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Нерчинск",
+      "street": "ш. Флотское",
+      "house": "3/6",
+      "postal_code": "706139",
+      "coordinates": {
+        "latitude": 29.3292405,
+        "longitude": 88.567868
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 813.75,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 1108.6,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    }
+  ],
+  "total_amount": 1922.35,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Стерлитамак",
+    "street": "ш. Серафимовича",
+    "house": "131",
+    "apartment": "14",
+    "postal_code": "596582"
+  },
+  "purchase_datetime": "2025-07-05T20:46:44.884682"
+}

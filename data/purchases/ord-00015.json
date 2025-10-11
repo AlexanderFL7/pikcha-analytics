@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00015",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Евсей",
+    "last_name": "Беляков"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ш. Заовражное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Волгоград",
+      "street": "наб. Родниковая",
+      "house": "19",
+      "postal_code": "685015",
+      "coordinates": {
+        "latitude": 1.0525245,
+        "longitude": 67.713596
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 441.04,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 470.36,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 911.4,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Бодайбо",
+    "street": "бул. Красноармейский",
+    "house": "30",
+    "apartment": "83",
+    "postal_code": "595327"
+  },
+  "purchase_datetime": "2025-08-17T20:46:44.861423"
+}

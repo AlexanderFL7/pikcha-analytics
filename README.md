@@ -1,1 +1,0 @@
-# Pikcha Analytics Project

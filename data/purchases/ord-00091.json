@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00091",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Иванна",
+    "last_name": "Федосеева"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на ш. Николаева",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Амдерма",
+      "street": "пр. Новгородский",
+      "house": "9/7",
+      "postal_code": "952987",
+      "coordinates": {
+        "latitude": -2.9742375,
+        "longitude": -4.329578
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Дружно",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 267.17,
+      "total_price": 1068.68,
+      "kbju": {
+        "calories": 188.8,
+        "protein": 2.2,
+        "fat": 6.8,
+        "carbohydrates": 25.9
+      },
+      "manufacturer": {
+        "name": "Игнатьев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "7040581430"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 333.92,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    }
+  ],
+  "total_amount": 1402.6,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Амдерма",
+    "street": "алл. Луначарского",
+    "house": "9/4",
+    "apartment": "67",
+    "postal_code": "750317"
+  },
+  "purchase_datetime": "2025-08-03T20:46:44.901825"
+}

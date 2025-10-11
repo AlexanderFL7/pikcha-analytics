@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1001",
+  "first_name": "Светозар",
+  "last_name": "Симонова",
+  "email": "fade1982@example.org",
+  "phone": "+7 477 016 05 93",
+  "birth_date": "1978-12-24",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.825443",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-568EBF8E2F",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Подольск",
+    "street": "бул. Лазурный",
+    "house": "6",
+    "postal_code": "516162",
+    "coordinates": {
+      "latitude": -52.920935,
+      "longitude": -144.978241
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Подольск",
+    "street": "бул. Николаева",
+    "house": "5",
+    "apartment": "49",
+    "postal_code": "993597"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

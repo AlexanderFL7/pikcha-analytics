@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00181",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Панкратий",
+    "last_name": "Котов"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на пер. 70 лет Октября",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Советский",
+      "street": "пр. Веселый",
+      "house": "25",
+      "postal_code": "223053",
+      "coordinates": {
+        "latitude": -24.99498,
+        "longitude": 178.928714
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 551.3,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 476.34,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 333.92,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    }
+  ],
+  "total_amount": 1361.56,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Рыбинск",
+    "street": "бул. Минский",
+    "house": "921",
+    "apartment": "52",
+    "postal_code": "323174"
+  },
+  "purchase_datetime": "2025-09-05T20:46:44.950986"
+}

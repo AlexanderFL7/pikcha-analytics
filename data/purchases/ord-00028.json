@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00028",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Ефим",
+    "last_name": "Авдеев"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. 50 лет Октября",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шатой",
+      "street": "пр. Революции",
+      "house": "1",
+      "postal_code": "393291",
+      "coordinates": {
+        "latitude": -15.553275,
+        "longitude": 51.952024
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 216.4,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дружно",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 267.17,
+      "total_price": 801.51,
+      "kbju": {
+        "calories": 188.8,
+        "protein": 2.2,
+        "fat": 6.8,
+        "carbohydrates": 25.9
+      },
+      "manufacturer": {
+        "name": "Игнатьев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "7040581430"
+      }
+    }
+  ],
+  "total_amount": 1017.91,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Энгельс",
+    "street": "пр. Красногвардейский",
+    "house": "661",
+    "apartment": "39",
+    "postal_code": "370690"
+  },
+  "purchase_datetime": "2025-08-14T20:46:44.868596"
+}

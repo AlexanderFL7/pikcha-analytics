@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1027",
+  "first_name": "Никандр",
+  "last_name": "Воробьев",
+  "email": "boleslav_28@example.net",
+  "phone": "+7 092 272 17 21",
+  "birth_date": "1979-06-03",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.842367",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-0B399BA1C6",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Брянск",
+    "street": "ул. Дружба",
+    "house": "8/1",
+    "postal_code": "714235",
+    "coordinates": {
+      "latitude": -48.4825335,
+      "longitude": 65.31398
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Брянск",
+    "street": "алл. Пограничная",
+    "house": "8/9",
+    "apartment": "78",
+    "postal_code": "650578"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

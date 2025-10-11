@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00026",
+  "customer": {
+    "customer_id": "cus-1021",
+    "first_name": "Пимен",
+    "last_name": "Андреева"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на пер. Максима Горького",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Внуково (метеост.)",
+      "street": "пр. Котовского",
+      "house": "5",
+      "postal_code": "629530",
+      "coordinates": {
+        "latitude": 57.670901,
+        "longitude": -179.781703
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1002",
+      "name": "Бровь",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 87.78,
+      "total_price": 87.78,
+      "kbju": {
+        "calories": 70.5,
+        "protein": 2.0,
+        "fat": 3.6,
+        "carbohydrates": 1.3
+      },
+      "manufacturer": {
+        "name": "РАО «Уварова Захарова»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7511099076"
+      }
+    },
+    {
+      "product_id": "prd-1005",
+      "name": "Вообще",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 99.89,
+      "total_price": 399.56,
+      "kbju": {
+        "calories": 246.2,
+        "protein": 1.2,
+        "fat": 4.1,
+        "carbohydrates": 13.7
+      },
+      "manufacturer": {
+        "name": "Центр финансовых технологий",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "1033506434"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 888.0,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 1375.34,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Бийск",
+    "street": "ул. Лазо",
+    "house": "125",
+    "apartment": "41",
+    "postal_code": "962065"
+  },
+  "purchase_datetime": "2025-07-20T20:46:44.867435"
+}

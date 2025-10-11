@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00167",
+  "customer": {
+    "customer_id": "cus-1011",
+    "first_name": "Валерия",
+    "last_name": "Терентьев"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на ш. Восточное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Бийск",
+      "street": "наб. Киевская",
+      "house": "7",
+      "postal_code": "131615",
+      "coordinates": {
+        "latitude": 40.7514275,
+        "longitude": 136.421525
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 235.18,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 235.18,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Калач-на-Дону",
+    "street": "ул. Сосновая",
+    "house": "9",
+    "apartment": "2",
+    "postal_code": "046166"
+  },
+  "purchase_datetime": "2025-06-30T20:46:44.943260"
+}

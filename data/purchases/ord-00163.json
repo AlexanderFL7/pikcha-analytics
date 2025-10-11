@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00163",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Леонид",
+    "last_name": "Исаева"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на ш. Гайдара",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шенкурск",
+      "street": "наб. Кошевого",
+      "house": "56",
+      "postal_code": "995990",
+      "coordinates": {
+        "latitude": 62.61799,
+        "longitude": 116.76509
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 507.44,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 692.46,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 264.69,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    }
+  ],
+  "total_amount": 1464.59,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ахтубинск",
+    "street": "ш. Коммунальное",
+    "house": "69",
+    "apartment": "71",
+    "postal_code": "846358"
+  },
+  "purchase_datetime": "2025-08-05T20:46:44.941157"
+}

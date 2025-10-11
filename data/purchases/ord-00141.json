@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00141",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Сидор",
+    "last_name": "Третьяков"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на бул. Васильковый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ардон",
+      "street": "пер. Шевченко",
+      "house": "61",
+      "postal_code": "928635",
+      "coordinates": {
+        "latitude": -59.13895,
+        "longitude": -139.360649
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 1108.6,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    }
+  ],
+  "total_amount": 1108.6,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Нерчинск",
+    "street": "бул. Водников",
+    "house": "48",
+    "apartment": "73",
+    "postal_code": "170437"
+  },
+  "purchase_datetime": "2025-08-03T20:46:44.928934"
+}

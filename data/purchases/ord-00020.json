@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00020",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Ювеналий",
+    "last_name": "Галкина"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на бул. Рыбацкий",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Подольск",
+      "street": "бул. Лазурный",
+      "house": "6",
+      "postal_code": "516162",
+      "coordinates": {
+        "latitude": -52.920935,
+        "longitude": -144.978241
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 126.86,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 330.78,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 488.25,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    }
+  ],
+  "total_amount": 945.89,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Шатой",
+    "street": "бул. Некрасова",
+    "house": "33",
+    "apartment": "51",
+    "postal_code": "724172"
+  },
+  "purchase_datetime": "2025-07-25T20:46:44.863917"
+}

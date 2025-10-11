@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00187",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Давыд",
+    "last_name": "Овчинникова"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на ш. Гайдара",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шенкурск",
+      "street": "наб. Кошевого",
+      "house": "56",
+      "postal_code": "995990",
+      "coordinates": {
+        "latitude": 62.61799,
+        "longitude": 116.76509
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 705.54,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 715.5,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 355.2,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 1776.24,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "бул. Степана Разина",
+    "house": "9",
+    "apartment": "7",
+    "postal_code": "754571"
+  },
+  "purchase_datetime": "2025-06-30T20:46:44.954054"
+}

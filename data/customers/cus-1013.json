@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1013",
+  "first_name": "Артемий",
+  "last_name": "Блинова",
+  "email": "davidovarseni@example.com",
+  "phone": "+7 (606) 154-9448",
+  "birth_date": "2004-03-02",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.832915",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-9F4C69B803",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Ардон",
+    "street": "пер. Шевченко",
+    "house": "61",
+    "postal_code": "928635",
+    "coordinates": {
+      "latitude": -59.13895,
+      "longitude": -139.360649
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ардон",
+    "street": "бул. Ключевой",
+    "house": "10",
+    "apartment": "88",
+    "postal_code": "019542"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

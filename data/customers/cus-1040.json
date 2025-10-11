@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1040",
+  "first_name": "Евсей",
+  "last_name": "Беляков",
+  "email": "alekse1975@example.com",
+  "phone": "8 (441) 771-82-22",
+  "birth_date": "1984-07-01",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.850658",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-0075E72714",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Бодайбо",
+    "street": "наб. Флотская",
+    "house": "824",
+    "postal_code": "022330",
+    "coordinates": {
+      "latitude": -43.15977,
+      "longitude": 65.286955
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Бодайбо",
+    "street": "бул. Красноармейский",
+    "house": "30",
+    "apartment": "83",
+    "postal_code": "595327"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00197",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Давыд",
+    "last_name": "Овчинникова"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на ш. Металлистов",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Снежинск",
+      "street": "бул. Леваневского",
+      "house": "591",
+      "postal_code": "518529",
+      "coordinates": {
+        "latitude": -68.8199585,
+        "longitude": -74.561652
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Вообще",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 99.89,
+      "total_price": 299.67,
+      "kbju": {
+        "calories": 246.2,
+        "protein": 1.2,
+        "fat": 4.1,
+        "carbohydrates": 13.7
+      },
+      "manufacturer": {
+        "name": "Центр финансовых технологий",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "1033506434"
+      }
+    }
+  ],
+  "total_amount": 299.67,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "бул. Степана Разина",
+    "house": "9",
+    "apartment": "7",
+    "postal_code": "754571"
+  },
+  "purchase_datetime": "2025-08-12T20:46:44.959495"
+}

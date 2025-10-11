@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00066",
+  "customer": {
+    "customer_id": "cus-1023",
+    "first_name": "Ростислав",
+    "last_name": "Николаев"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на ул. Красноармейская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Соловки",
+      "street": "пр. Лермонтова",
+      "house": "495",
+      "postal_code": "205289",
+      "coordinates": {
+        "latitude": -32.262126,
+        "longitude": 121.451834
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 888.0,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 706.95,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    }
+  ],
+  "total_amount": 1594.95,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Приозерск",
+    "street": "наб. Курортная",
+    "house": "52",
+    "apartment": "73",
+    "postal_code": "576944"
+  },
+  "purchase_datetime": "2025-07-05T20:46:44.888369"
+}

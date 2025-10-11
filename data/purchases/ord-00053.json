@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00053",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Кира",
+    "last_name": "Муравьев"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на алл. Урожайная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Охотск",
+      "street": "наб. Рязанская",
+      "house": "196",
+      "postal_code": "210958",
+      "coordinates": {
+        "latitude": 83.3695455,
+        "longitude": 174.29863
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 635.12,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    }
+  ],
+  "total_amount": 635.12,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Медногорск",
+    "street": "пер. Братский",
+    "house": "98",
+    "apartment": "84",
+    "postal_code": "672324"
+  },
+  "purchase_datetime": "2025-08-26T20:46:44.881835"
+}

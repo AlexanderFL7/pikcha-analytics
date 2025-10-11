@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00146",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Панкратий",
+    "last_name": "Котов"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на бул. Тракторный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Пинега",
+      "street": "алл. Победы",
+      "house": "59",
+      "postal_code": "977602",
+      "coordinates": {
+        "latitude": -78.962288,
+        "longitude": 133.956041
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 554.3,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 610.15,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    }
+  ],
+  "total_amount": 1164.45,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Рыбинск",
+    "street": "бул. Минский",
+    "house": "921",
+    "apartment": "52",
+    "postal_code": "323174"
+  },
+  "purchase_datetime": "2025-08-28T20:46:44.931431"
+}

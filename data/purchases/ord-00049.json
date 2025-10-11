@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00049",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Давыд",
+    "last_name": "Одинцов"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на алл. Космическая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Палана",
+      "street": "ш. Боровое",
+      "house": "4",
+      "postal_code": "920689",
+      "coordinates": {
+        "latitude": -10.7121645,
+        "longitude": 110.676379
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 634.3,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 634.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Внуково (метеост.)",
+    "street": "бул. Таманский",
+    "house": "11",
+    "apartment": "64",
+    "postal_code": "762733"
+  },
+  "purchase_datetime": "2025-09-18T20:46:44.879718"
+}

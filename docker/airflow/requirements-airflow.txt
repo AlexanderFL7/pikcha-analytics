@@ -1,0 +1,10 @@
+pyspark==4.0.1
+pandas
+requests
+boto3
+tqdm
+psycopg2-binary
+clickhouse-driver==0.2.9
+minio
+cryptography
+

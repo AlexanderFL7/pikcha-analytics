@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00102",
+  "customer": {
+    "customer_id": "cus-1019",
+    "first_name": "Октябрина",
+    "last_name": "Лебедева"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пер. Набережный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Стерлитамак",
+      "street": "бул. Рябиновый",
+      "house": "3/3",
+      "postal_code": "450410",
+      "coordinates": {
+        "latitude": 16.1551925,
+        "longitude": -124.378009
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 380.58,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 140.94,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    },
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 264.69,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    }
+  ],
+  "total_amount": 786.21,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Стерлитамак",
+    "street": "ш. Серафимовича",
+    "house": "131",
+    "apartment": "14",
+    "postal_code": "596582"
+  },
+  "purchase_datetime": "2025-08-14T20:46:44.908372"
+}

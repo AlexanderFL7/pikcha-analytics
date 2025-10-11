@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00162",
+  "customer": {
+    "customer_id": "cus-1036",
+    "first_name": "Касьян",
+    "last_name": "Шестаков"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на наб. Фурманова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Октябрьский (Башк.)",
+      "street": "пр. Ангарский",
+      "house": "9",
+      "postal_code": "100715",
+      "coordinates": {
+        "latitude": -46.051428,
+        "longitude": 161.144183
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 635.12,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 667.84,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 140.94,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    }
+  ],
+  "total_amount": 1443.9,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Апатиты",
+    "street": "пр. Чапаева",
+    "house": "8",
+    "apartment": "23",
+    "postal_code": "605001"
+  },
+  "purchase_datetime": "2025-09-09T20:46:44.940635"
+}

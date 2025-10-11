@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00161",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Агафон",
+    "last_name": "Чернов"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на наб. Шаумяна",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Мураши",
+      "street": "ул. Больничная",
+      "house": "3/1",
+      "postal_code": "686487",
+      "coordinates": {
+        "latitude": 83.395695,
+        "longitude": -72.131337
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 352.92,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 422.82,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 580.56,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    }
+  ],
+  "total_amount": 1356.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Снежинск",
+    "street": "пер. Маркса Карла",
+    "house": "620",
+    "apartment": "65",
+    "postal_code": "454799"
+  },
+  "purchase_datetime": "2025-07-24T20:46:44.940060"
+}

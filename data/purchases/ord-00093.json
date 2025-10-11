@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00093",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Аполлинарий",
+    "last_name": "Рожков"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пер. Набережный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Стерлитамак",
+      "street": "бул. Рябиновый",
+      "house": "3/3",
+      "postal_code": "450410",
+      "coordinates": {
+        "latitude": 16.1551925,
+        "longitude": -124.378009
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 325.5,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    }
+  ],
+  "total_amount": 325.5,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Оймякон",
+    "street": "бул. Седова",
+    "house": "9",
+    "apartment": "59",
+    "postal_code": "305047"
+  },
+  "purchase_datetime": "2025-09-21T20:46:44.902830"
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00132",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Иванна",
+    "last_name": "Федосеева"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на ул. Красноармейская",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Соловки",
+      "street": "пр. Лермонтова",
+      "house": "495",
+      "postal_code": "205289",
+      "coordinates": {
+        "latitude": -32.262126,
+        "longitude": 121.451834
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 610.15,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    }
+  ],
+  "total_amount": 610.15,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Амдерма",
+    "street": "алл. Луначарского",
+    "house": "9/4",
+    "apartment": "67",
+    "postal_code": "750317"
+  },
+  "purchase_datetime": "2025-07-16T20:46:44.924540"
+}

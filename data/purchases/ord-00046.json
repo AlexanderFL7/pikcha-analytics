@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00046",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Осип",
+    "last_name": "Носков"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Тукая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Махачкала",
+      "street": "ш. Станционное",
+      "house": "27",
+      "postal_code": "606587",
+      "coordinates": {
+        "latitude": 64.3281635,
+        "longitude": -43.189159
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 352.92,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 220.52,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 667.84,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    }
+  ],
+  "total_amount": 1241.28,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "ш. Ломоносова",
+    "house": "826",
+    "apartment": "81",
+    "postal_code": "888209"
+  },
+  "purchase_datetime": "2025-07-28T20:46:44.877873"
+}

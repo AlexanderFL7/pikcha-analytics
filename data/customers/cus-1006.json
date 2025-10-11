@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1006",
+  "first_name": "Илья",
+  "last_name": "Лебедев",
+  "email": "regina_1996@example.com",
+  "phone": "8 345 879 88 77",
+  "birth_date": "1970-12-08",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.828623",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-728064870B",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Юрьевец (Иван.)",
+    "street": "алл. Брянская",
+    "house": "7/6",
+    "postal_code": "936652",
+    "coordinates": {
+      "latitude": -73.519794,
+      "longitude": -111.732361
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Юрьевец (Иван.)",
+    "street": "бул. Астраханский",
+    "house": "225",
+    "apartment": "91",
+    "postal_code": "184331"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

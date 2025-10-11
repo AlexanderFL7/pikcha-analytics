@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00165",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лучезар",
+    "last_name": "Агафонов"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на алл. Сосновая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Рыбинск",
+      "street": "наб. Кузнечная",
+      "house": "4",
+      "postal_code": "374521",
+      "coordinates": {
+        "latitude": -50.594116,
+        "longitude": 159.542123
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 1175.9,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 1175.9,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Советский",
+    "street": "пер. Магистральный",
+    "house": "9/2",
+    "apartment": "23",
+    "postal_code": "631322"
+  },
+  "purchase_datetime": "2025-07-09T20:46:44.942255"
+}

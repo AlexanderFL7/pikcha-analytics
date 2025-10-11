@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00147",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Феоктист",
+    "last_name": "Евсеев"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на пер. 70 лет Октября",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Советский",
+      "street": "пр. Веселый",
+      "house": "25",
+      "postal_code": "223053",
+      "coordinates": {
+        "latitude": -24.99498,
+        "longitude": 178.928714
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 177.6,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дружно",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 267.17,
+      "total_price": 534.34,
+      "kbju": {
+        "calories": 188.8,
+        "protein": 2.2,
+        "fat": 6.8,
+        "carbohydrates": 25.9
+      },
+      "manufacturer": {
+        "name": "Игнатьев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "7040581430"
+      }
+    }
+  ],
+  "total_amount": 711.94,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Бугульма",
+    "street": "алл. Азовская",
+    "house": "438",
+    "apartment": "55",
+    "postal_code": "015276"
+  },
+  "purchase_datetime": "2025-07-02T20:46:44.931914"
+}

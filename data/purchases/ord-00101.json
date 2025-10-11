@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00101",
+  "customer": {
+    "customer_id": "cus-1018",
+    "first_name": "Панкратий",
+    "last_name": "Котов"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. 50 лет Октября",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шатой",
+      "street": "пр. Революции",
+      "house": "1",
+      "postal_code": "393291",
+      "coordinates": {
+        "latitude": -15.553275,
+        "longitude": 51.952024
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Дружно",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 267.17,
+      "total_price": 267.17,
+      "kbju": {
+        "calories": 188.8,
+        "protein": 2.2,
+        "fat": 6.8,
+        "carbohydrates": 25.9
+      },
+      "manufacturer": {
+        "name": "Игнатьев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "7040581430"
+      }
+    }
+  ],
+  "total_amount": 267.17,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Рыбинск",
+    "street": "бул. Минский",
+    "house": "921",
+    "apartment": "52",
+    "postal_code": "323174"
+  },
+  "purchase_datetime": "2025-08-07T20:46:44.907897"
+}

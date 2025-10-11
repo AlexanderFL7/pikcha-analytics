@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00076",
+  "customer": {
+    "customer_id": "cus-1021",
+    "first_name": "Пимен",
+    "last_name": "Андреева"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на бул. Кузнецова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Санкт-Петербург",
+      "street": "наб. Кавказская",
+      "house": "985",
+      "postal_code": "834055",
+      "coordinates": {
+        "latitude": 39.2227465,
+        "longitude": 88.428708
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 54.1,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    },
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 554.3,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    }
+  ],
+  "total_amount": 608.4,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Бийск",
+    "street": "ул. Лазо",
+    "house": "125",
+    "apartment": "41",
+    "postal_code": "962065"
+  },
+  "purchase_datetime": "2025-08-26T20:46:44.893895"
+}

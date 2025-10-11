@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00133",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Феоктист",
+    "last_name": "Евсеев"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на ш. Восточное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Бийск",
+      "street": "наб. Киевская",
+      "house": "7",
+      "postal_code": "131615",
+      "coordinates": {
+        "latitude": 40.7514275,
+        "longitude": 136.421525
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 441.15,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    },
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 333.92,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    }
+  ],
+  "total_amount": 775.07,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Бугульма",
+    "street": "алл. Азовская",
+    "house": "438",
+    "apartment": "55",
+    "postal_code": "015276"
+  },
+  "purchase_datetime": "2025-09-09T20:46:44.925001"
+}

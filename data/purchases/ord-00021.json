@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00021",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Аполлинарий",
+    "last_name": "Рожков"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на ш. Горняцкое",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Теберда",
+      "street": "ул. Приморская",
+      "house": "8",
+      "postal_code": "295305",
+      "coordinates": {
+        "latitude": 2.967955,
+        "longitude": -173.679652
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Вообще",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 99.89,
+      "total_price": 399.56,
+      "kbju": {
+        "calories": 246.2,
+        "protein": 1.2,
+        "fat": 4.1,
+        "carbohydrates": 13.7
+      },
+      "manufacturer": {
+        "name": "Центр финансовых технологий",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "1033506434"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 270.5,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    }
+  ],
+  "total_amount": 670.06,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Оймякон",
+    "street": "бул. Седова",
+    "house": "9",
+    "apartment": "59",
+    "postal_code": "305047"
+  },
+  "purchase_datetime": "2025-08-01T20:46:44.864449"
+}

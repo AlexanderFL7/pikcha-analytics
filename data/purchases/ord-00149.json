@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00149",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Руслан",
+    "last_name": "Иванова"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на пер. Курчатова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Юрьевец (Иван.)",
+      "street": "алл. Брянская",
+      "house": "7/6",
+      "postal_code": "936652",
+      "coordinates": {
+        "latitude": -73.519794,
+        "longitude": -111.732361
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 651.0,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 563.76,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 471.3,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    }
+  ],
+  "total_amount": 1686.06,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Санкт-Петербург",
+    "street": "наб. Строителей",
+    "house": "58",
+    "apartment": "61",
+    "postal_code": "346182"
+  },
+  "purchase_datetime": "2025-07-28T20:46:44.933114"
+}

@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00103",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Леонид",
+    "last_name": "Исаева"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Тукая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Махачкала",
+      "street": "ш. Станционное",
+      "house": "27",
+      "postal_code": "606587",
+      "coordinates": {
+        "latitude": 64.3281635,
+        "longitude": -43.189159
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 177.6,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    },
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 610.15,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    }
+  ],
+  "total_amount": 787.75,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ахтубинск",
+    "street": "ш. Коммунальное",
+    "house": "69",
+    "apartment": "71",
+    "postal_code": "846358"
+  },
+  "purchase_datetime": "2025-08-04T20:46:44.908915"
+}

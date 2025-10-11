@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00169",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Евсей",
+    "last_name": "Беляков"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пер. Энтузиастов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Энгельс",
+      "street": "наб. 30 лет Победы",
+      "house": "587",
+      "postal_code": "029096",
+      "coordinates": {
+        "latitude": 17.138524,
+        "longitude": 38.567382
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 488.25,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    }
+  ],
+  "total_amount": 488.25,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Бодайбо",
+    "street": "бул. Красноармейский",
+    "house": "30",
+    "apartment": "83",
+    "postal_code": "595327"
+  },
+  "purchase_datetime": "2025-08-07T20:46:44.944244"
+}

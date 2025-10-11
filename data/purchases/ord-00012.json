@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00012",
+  "customer": {
+    "customer_id": "cus-1040",
+    "first_name": "Евсей",
+    "last_name": "Беляков"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на ш. Восточное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Бийск",
+      "street": "наб. Киевская",
+      "house": "7",
+      "postal_code": "131615",
+      "coordinates": {
+        "latitude": 40.7514275,
+        "longitude": 136.421525
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 710.4,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    },
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 216.4,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    }
+  ],
+  "total_amount": 926.8,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Бодайбо",
+    "street": "бул. Красноармейский",
+    "house": "30",
+    "apartment": "83",
+    "postal_code": "595327"
+  },
+  "purchase_datetime": "2025-07-30T20:46:44.859929"
+}

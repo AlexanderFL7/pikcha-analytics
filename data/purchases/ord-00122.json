@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00122",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Ювеналий",
+    "last_name": "Галкина"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на наб. Моховая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ахтубинск",
+      "street": "наб. 60 лет СССР",
+      "house": "19",
+      "postal_code": "888309",
+      "coordinates": {
+        "latitude": -31.694923,
+        "longitude": 132.83995
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 1178.25,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 705.54,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 1883.79,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Шатой",
+    "street": "бул. Некрасова",
+    "house": "33",
+    "apartment": "51",
+    "postal_code": "724172"
+  },
+  "purchase_datetime": "2025-09-20T20:46:44.918902"
+}

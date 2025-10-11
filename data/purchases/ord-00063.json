@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00063",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Аполлинарий",
+    "last_name": "Рожков"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ш. Заовражное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Волгоград",
+      "street": "наб. Родниковая",
+      "house": "19",
+      "postal_code": "685015",
+      "coordinates": {
+        "latitude": 1.0525245,
+        "longitude": 67.713596
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 177.6,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 177.6,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Оймякон",
+    "street": "бул. Седова",
+    "house": "9",
+    "apartment": "59",
+    "postal_code": "305047"
+  },
+  "purchase_datetime": "2025-07-31T20:46:44.886706"
+}

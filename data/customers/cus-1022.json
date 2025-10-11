@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1022",
+  "first_name": "Олег",
+  "last_name": "Тетерин",
+  "email": "prokl_1997@example.com",
+  "phone": "8 864 290 50 01",
+  "birth_date": "1986-05-16",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.839062",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-7AD95F3567",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Ижевск",
+    "street": "алл. Гагарина",
+    "house": "9",
+    "postal_code": "881680",
+    "coordinates": {
+      "latitude": -63.5977595,
+      "longitude": 104.025998
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Ижевск",
+    "street": "пр. Депутатский",
+    "house": "1",
+    "apartment": "54",
+    "postal_code": "603501"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

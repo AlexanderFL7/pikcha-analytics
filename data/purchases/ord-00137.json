@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00137",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Борис",
+    "last_name": "Абрамова"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Минина",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Пятигорск",
+      "street": "бул. Огородный",
+      "house": "131",
+      "postal_code": "944754",
+      "coordinates": {
+        "latitude": 47.607061,
+        "longitude": 81.195256
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 710.4,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 793.9,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    }
+  ],
+  "total_amount": 1504.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Жигулевск",
+    "street": "ш. Ручейное",
+    "house": "27",
+    "apartment": "20",
+    "postal_code": "376990"
+  },
+  "purchase_datetime": "2025-09-20T20:46:44.926960"
+}

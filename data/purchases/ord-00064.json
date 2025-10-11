@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00064",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Феоктист",
+    "last_name": "Исакова"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на пер. Физкультурный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Сунтар",
+      "street": "ул. Докучаева",
+      "house": "31",
+      "postal_code": "470575",
+      "coordinates": {
+        "latitude": 31.191561,
+        "longitude": -174.719622
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 140.94,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 394.36,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    },
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 942.6,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    }
+  ],
+  "total_amount": 1477.9,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Культуры",
+    "house": "7/8",
+    "apartment": "80",
+    "postal_code": "630860"
+  },
+  "purchase_datetime": "2025-09-15T20:46:44.887199"
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00185",
+  "customer": {
+    "customer_id": "cus-1013",
+    "first_name": "Артемий",
+    "last_name": "Блинова"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Лазурный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Бугульма",
+      "street": "бул. Набережный",
+      "house": "181",
+      "postal_code": "988264",
+      "coordinates": {
+        "latitude": 75.969734,
+        "longitude": -114.81151
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 387.04,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    }
+  ],
+  "total_amount": 387.04,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ардон",
+    "street": "бул. Ключевой",
+    "house": "10",
+    "apartment": "88",
+    "postal_code": "019542"
+  },
+  "purchase_datetime": "2025-07-04T20:46:44.953065"
+}

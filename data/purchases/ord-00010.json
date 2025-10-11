@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00010",
+  "customer": {
+    "customer_id": "cus-1043",
+    "first_name": "Давыд",
+    "last_name": "Одинцов"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ш. Высотное",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Верхнее Пенжино",
+      "street": "пр. Радищева",
+      "house": "47",
+      "postal_code": "921412",
+      "coordinates": {
+        "latitude": 49.192579,
+        "longitude": 155.72815
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 429.3,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 634.3,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 1063.6,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Внуково (метеост.)",
+    "street": "бул. Таманский",
+    "house": "11",
+    "apartment": "64",
+    "postal_code": "762733"
+  },
+  "purchase_datetime": "2025-09-04T20:46:44.858927"
+}

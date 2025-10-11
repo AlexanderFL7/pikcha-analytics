@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1034",
+  "first_name": "Вячеслав",
+  "last_name": "Ершов",
+  "email": "dkuznetsova@example.net",
+  "phone": "+7 (307) 462-07-93",
+  "birth_date": "2005-11-22",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.846789",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-7FF3B4F314",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Ростов-на-Дону",
+    "street": "пр. Чапаева",
+    "house": "1/2",
+    "postal_code": "314965",
+    "coordinates": {
+      "latitude": 87.3998935,
+      "longitude": 10.71584
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Ростов-на-Дону",
+    "street": "пер. Кленовый",
+    "house": "7",
+    "apartment": "77",
+    "postal_code": "866430"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

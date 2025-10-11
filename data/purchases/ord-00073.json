@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00073",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Феоктист",
+    "last_name": "Исакова"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пр. Веселый",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Нерчинск",
+      "street": "ш. Флотское",
+      "house": "3/6",
+      "postal_code": "706139",
+      "coordinates": {
+        "latitude": 29.3292405,
+        "longitude": 88.567868
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 197.18,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 692.46,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    },
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 651.0,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    }
+  ],
+  "total_amount": 1540.64,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Культуры",
+    "house": "7/8",
+    "apartment": "80",
+    "postal_code": "630860"
+  },
+  "purchase_datetime": "2025-08-12T20:46:44.892199"
+}

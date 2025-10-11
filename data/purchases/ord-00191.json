@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00191",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Никандр",
+    "last_name": "Воробьев"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на наб. Шаумяна",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Мураши",
+      "street": "ул. Больничная",
+      "house": "3/1",
+      "postal_code": "686487",
+      "coordinates": {
+        "latitude": 83.395695,
+        "longitude": -72.131337
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 788.72,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 253.72,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 1042.44,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Брянск",
+    "street": "алл. Пограничная",
+    "house": "8/9",
+    "apartment": "78",
+    "postal_code": "650578"
+  },
+  "purchase_datetime": "2025-09-09T20:46:44.956418"
+}

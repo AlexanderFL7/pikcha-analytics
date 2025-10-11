@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00108",
+  "customer": {
+    "customer_id": "cus-1032",
+    "first_name": "Эмиль",
+    "last_name": "Яковлева"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на пр. М.Горького",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Ижевск",
+      "street": "алл. Гагарина",
+      "house": "9",
+      "postal_code": "881680",
+      "coordinates": {
+        "latitude": -63.5977595,
+        "longitude": 104.025998
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 488.12,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 317.56,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    }
+  ],
+  "total_amount": 805.68,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сергиев Посад",
+    "street": "ш. Интернациональное",
+    "house": "2/1",
+    "apartment": "63",
+    "postal_code": "330309"
+  },
+  "purchase_datetime": "2025-08-29T20:46:44.911433"
+}

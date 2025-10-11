@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00166",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Борис",
+    "last_name": "Абрамова"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на ш. Николаева",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Амдерма",
+      "street": "пр. Новгородский",
+      "house": "9/7",
+      "postal_code": "952987",
+      "coordinates": {
+        "latitude": -2.9742375,
+        "longitude": -4.329578
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 813.75,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 317.56,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    }
+  ],
+  "total_amount": 1131.31,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Жигулевск",
+    "street": "ш. Ручейное",
+    "house": "27",
+    "apartment": "20",
+    "postal_code": "376990"
+  },
+  "purchase_datetime": "2025-08-31T20:46:44.942752"
+}

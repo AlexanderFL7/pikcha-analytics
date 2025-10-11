@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00075",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Феоктист",
+    "last_name": "Евсеев"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на алл. Урожайная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Охотск",
+      "street": "наб. Рязанская",
+      "house": "196",
+      "postal_code": "210958",
+      "coordinates": {
+        "latitude": 83.3695455,
+        "longitude": 174.29863
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 1108.6,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 774.08,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    }
+  ],
+  "total_amount": 1882.68,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Бугульма",
+    "street": "алл. Азовская",
+    "house": "438",
+    "apartment": "55",
+    "postal_code": "015276"
+  },
+  "purchase_datetime": "2025-08-02T20:46:44.893344"
+}

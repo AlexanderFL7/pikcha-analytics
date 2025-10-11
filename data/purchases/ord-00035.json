@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00035",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Борис",
+    "last_name": "Абрамова"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пер. Шахтерский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Апатиты",
+      "street": "пр. Шаумяна",
+      "house": "4",
+      "postal_code": "847717",
+      "coordinates": {
+        "latitude": -33.1435305,
+        "longitude": -179.026289
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Вообще",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 99.89,
+      "total_price": 199.78,
+      "kbju": {
+        "calories": 246.2,
+        "protein": 1.2,
+        "fat": 4.1,
+        "carbohydrates": 13.7
+      },
+      "manufacturer": {
+        "name": "Центр финансовых технологий",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "1033506434"
+      }
+    }
+  ],
+  "total_amount": 199.78,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Жигулевск",
+    "street": "ш. Ручейное",
+    "house": "27",
+    "apartment": "20",
+    "postal_code": "376990"
+  },
+  "purchase_datetime": "2025-09-21T20:46:44.872367"
+}

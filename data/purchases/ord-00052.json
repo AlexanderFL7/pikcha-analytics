@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00052",
+  "customer": {
+    "customer_id": "cus-1005",
+    "first_name": "Елизавета",
+    "last_name": "Калинин"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на наб. Моховая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ахтубинск",
+      "street": "наб. 60 лет СССР",
+      "house": "19",
+      "postal_code": "888309",
+      "coordinates": {
+        "latitude": -31.694923,
+        "longitude": 132.83995
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 461.64,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    }
+  ],
+  "total_amount": 461.64,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Нефтекамск",
+    "street": "пр. 9 мая",
+    "house": "7/3",
+    "apartment": "73",
+    "postal_code": "772302"
+  },
+  "purchase_datetime": "2025-08-28T20:46:44.881383"
+}

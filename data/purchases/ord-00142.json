@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00142",
+  "customer": {
+    "customer_id": "cus-1031",
+    "first_name": "Ювеналий",
+    "last_name": "Галкина"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на пер. Энтузиастов",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Энгельс",
+      "street": "наб. 30 лет Победы",
+      "house": "587",
+      "postal_code": "029096",
+      "coordinates": {
+        "latitude": 17.138524,
+        "longitude": 38.567382
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 277.15,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    }
+  ],
+  "total_amount": 277.15,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Шатой",
+    "street": "бул. Некрасова",
+    "house": "33",
+    "apartment": "51",
+    "postal_code": "724172"
+  },
+  "purchase_datetime": "2025-07-03T20:46:44.929415"
+}

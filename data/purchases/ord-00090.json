@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00090",
+  "customer": {
+    "customer_id": "cus-1044",
+    "first_name": "Ефим",
+    "last_name": "Авдеев"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на алл. Сосновая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Рыбинск",
+      "street": "наб. Кузнечная",
+      "house": "4",
+      "postal_code": "374521",
+      "coordinates": {
+        "latitude": -50.594116,
+        "longitude": 159.542123
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 220.52,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    }
+  ],
+  "total_amount": 220.52,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Энгельс",
+    "street": "пр. Красногвардейский",
+    "house": "661",
+    "apartment": "39",
+    "postal_code": "370690"
+  },
+  "purchase_datetime": "2025-09-11T20:46:44.901334"
+}

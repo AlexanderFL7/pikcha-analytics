@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1019",
+  "first_name": "Октябрина",
+  "last_name": "Лебедева",
+  "email": "shchukinsigizmund@example.net",
+  "phone": "86534250510",
+  "birth_date": "2007-03-08",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.836714",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-565946A2F5",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "г. Стерлитамак",
+    "street": "бул. Рябиновый",
+    "house": "3/3",
+    "postal_code": "450410",
+    "coordinates": {
+      "latitude": 16.1551925,
+      "longitude": -124.378009
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Стерлитамак",
+    "street": "ш. Серафимовича",
+    "house": "131",
+    "apartment": "14",
+    "postal_code": "596582"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

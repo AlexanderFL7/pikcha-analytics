@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00072",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лучезар",
+    "last_name": "Агафонов"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на наб. Минина",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Пятигорск",
+      "street": "бул. Огородный",
+      "house": "131",
+      "postal_code": "944754",
+      "coordinates": {
+        "latitude": 47.607061,
+        "longitude": 81.195256
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 54.1,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    }
+  ],
+  "total_amount": 54.1,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Советский",
+    "street": "пер. Магистральный",
+    "house": "9/2",
+    "apartment": "23",
+    "postal_code": "631322"
+  },
+  "purchase_datetime": "2025-09-20T20:46:44.891714"
+}

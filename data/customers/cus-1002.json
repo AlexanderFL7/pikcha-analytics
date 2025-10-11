@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1002",
+  "first_name": "Руслан",
+  "last_name": "Иванова",
+  "email": "kondratevvaleri@example.com",
+  "phone": "8 (757) 898-0244",
+  "birth_date": "2003-08-29",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.826080",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-5E78205C08",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "д. Санкт-Петербург",
+    "street": "наб. Кавказская",
+    "house": "985",
+    "postal_code": "834055",
+    "coordinates": {
+      "latitude": 39.2227465,
+      "longitude": 88.428708
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Санкт-Петербург",
+    "street": "наб. Строителей",
+    "house": "58",
+    "apartment": "61",
+    "postal_code": "346182"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

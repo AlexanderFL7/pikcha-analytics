@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00194",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Исай",
+    "last_name": "Дроздов"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на бул. Кузнецова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Санкт-Петербург",
+      "street": "наб. Кавказская",
+      "house": "985",
+      "postal_code": "834055",
+      "coordinates": {
+        "latitude": 39.2227465,
+        "longitude": 88.428708
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 813.75,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    }
+  ],
+  "total_amount": 813.75,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Шенкурск",
+    "street": "пр. Береговой",
+    "house": "5/5",
+    "apartment": "6",
+    "postal_code": "541965"
+  },
+  "purchase_datetime": "2025-08-13T20:46:44.957980"
+}

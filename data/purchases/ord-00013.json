@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00013",
+  "customer": {
+    "customer_id": "cus-1017",
+    "first_name": "Аполлинарий",
+    "last_name": "Рожков"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пер. Кошевого",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сергиев Посад",
+      "street": "пр. Северный",
+      "house": "940",
+      "postal_code": "385024",
+      "coordinates": {
+        "latitude": 23.3754115,
+        "longitude": 115.258416
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 126.86,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 126.86,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Оймякон",
+    "street": "бул. Седова",
+    "house": "9",
+    "apartment": "59",
+    "postal_code": "305047"
+  },
+  "purchase_datetime": "2025-07-19T20:46:44.860434"
+}

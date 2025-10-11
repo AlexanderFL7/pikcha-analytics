@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00079",
+  "customer": {
+    "customer_id": "cus-1016",
+    "first_name": "Борис",
+    "last_name": "Абрамова"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на ш. Восточное",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Бийск",
+      "street": "наб. Киевская",
+      "house": "7",
+      "postal_code": "131615",
+      "coordinates": {
+        "latitude": 40.7514275,
+        "longitude": 136.421525
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 264.69,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 888.0,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 1152.69,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Жигулевск",
+    "street": "ш. Ручейное",
+    "house": "27",
+    "apartment": "20",
+    "postal_code": "376990"
+  },
+  "purchase_datetime": "2025-09-21T20:46:44.895589"
+}

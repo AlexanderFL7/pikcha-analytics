@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00005",
+  "customer": {
+    "customer_id": "cus-1035",
+    "first_name": "Феоктист",
+    "last_name": "Евсеев"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. 50 лет Октября",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шатой",
+      "street": "пр. Революции",
+      "house": "1",
+      "postal_code": "393291",
+      "coordinates": {
+        "latitude": -15.553275,
+        "longitude": 51.952024
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 572.4,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    },
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 461.64,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 140.94,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    }
+  ],
+  "total_amount": 1174.98,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Бугульма",
+    "street": "алл. Азовская",
+    "house": "438",
+    "apartment": "55",
+    "postal_code": "015276"
+  },
+  "purchase_datetime": "2025-07-21T20:46:44.856017"
+}

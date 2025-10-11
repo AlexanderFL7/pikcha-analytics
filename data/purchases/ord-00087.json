@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00087",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Терентий",
+    "last_name": "Евсеева"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на алл. Кирпичная",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Алапаевск",
+      "street": "наб. Рязанская",
+      "house": "8/6",
+      "postal_code": "665519",
+      "coordinates": {
+        "latitude": 39.6892755,
+        "longitude": -55.008728
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 831.45,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    },
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 572.4,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    }
+  ],
+  "total_amount": 1403.85,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Теберда",
+    "street": "ул. Набережная",
+    "house": "903",
+    "apartment": "81",
+    "postal_code": "253218"
+  },
+  "purchase_datetime": "2025-07-21T20:46:44.899798"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1012",
+  "first_name": "Тимур",
+  "last_name": "Цветков",
+  "email": "savelikondratev@example.com",
+  "phone": "8 587 735 77 01",
+  "birth_date": "1956-11-17",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.832306",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-5A2E370D58",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Сунтар",
+    "street": "ул. Докучаева",
+    "house": "31",
+    "postal_code": "470575",
+    "coordinates": {
+      "latitude": 31.191561,
+      "longitude": -174.719622
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Сунтар",
+    "street": "наб. З.Космодемьянской",
+    "house": "105",
+    "apartment": "31",
+    "postal_code": "148335"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

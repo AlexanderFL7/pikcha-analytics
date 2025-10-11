@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00098",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Агафон",
+    "last_name": "Чернов"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на пер. Шахтерский",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Апатиты",
+      "street": "пр. Шаумяна",
+      "house": "4",
+      "postal_code": "847717",
+      "coordinates": {
+        "latitude": -33.1435305,
+        "longitude": -179.026289
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 235.65,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    },
+    {
+      "product_id": "prd-1003",
+      "name": "Дружно",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 267.17,
+      "total_price": 801.51,
+      "kbju": {
+        "calories": 188.8,
+        "protein": 2.2,
+        "fat": 6.8,
+        "carbohydrates": 25.9
+      },
+      "manufacturer": {
+        "name": "Игнатьев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "7040581430"
+      }
+    }
+  ],
+  "total_amount": 1037.16,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Снежинск",
+    "street": "пер. Маркса Карла",
+    "house": "620",
+    "apartment": "65",
+    "postal_code": "454799"
+  },
+  "purchase_datetime": "2025-09-06T20:46:44.905750"
+}

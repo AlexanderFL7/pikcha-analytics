@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1038",
+  "first_name": "Панфил",
+  "last_name": "Кондратьева",
+  "email": "kirillovlev@example.com",
+  "phone": "+7 329 012 90 88",
+  "birth_date": "1959-05-14",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.849423",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B69EE3729D",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "г. Палана",
+    "street": "ш. Боровое",
+    "house": "4",
+    "postal_code": "920689",
+    "coordinates": {
+      "latitude": -10.7121645,
+      "longitude": 110.676379
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Палана",
+    "street": "пер. Центральный",
+    "house": "31",
+    "apartment": "30",
+    "postal_code": "728060"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

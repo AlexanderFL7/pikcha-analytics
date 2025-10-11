@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00196",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Осип",
+    "last_name": "Носков"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ш. Высотное",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Верхнее Пенжино",
+      "street": "пр. Радищева",
+      "house": "47",
+      "postal_code": "921412",
+      "coordinates": {
+        "latitude": 49.192579,
+        "longitude": 155.72815
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 235.65,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    }
+  ],
+  "total_amount": 235.65,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "ш. Ломоносова",
+    "house": "826",
+    "apartment": "81",
+    "postal_code": "888209"
+  },
+  "purchase_datetime": "2025-08-23T20:46:44.959004"
+}

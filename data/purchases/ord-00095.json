@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00095",
+  "customer": {
+    "customer_id": "cus-1015",
+    "first_name": "Мечислав",
+    "last_name": "Новикова"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на пер. Курчатова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Юрьевец (Иван.)",
+      "street": "алл. Брянская",
+      "house": "7/6",
+      "postal_code": "936652",
+      "coordinates": {
+        "latitude": -73.519794,
+        "longitude": -111.732361
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 940.72,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 940.72,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Пинега",
+    "street": "пр. Докучаева",
+    "house": "694",
+    "apartment": "79",
+    "postal_code": "278259"
+  },
+  "purchase_datetime": "2025-07-13T20:46:44.903798"
+}

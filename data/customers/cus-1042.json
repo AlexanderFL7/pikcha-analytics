@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1042",
+  "first_name": "Осип",
+  "last_name": "Носков",
+  "email": "deniszatsev@example.net",
+  "phone": "+7 (892) 573-1651",
+  "birth_date": "1990-01-11",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.851897",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-39D65B6188",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "бул. Пригородный",
+    "house": "9/9",
+    "postal_code": "991902",
+    "coordinates": {
+      "latitude": 64.9155365,
+      "longitude": 67.020814
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "ш. Ломоносова",
+    "house": "826",
+    "apartment": "81",
+    "postal_code": "888209"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

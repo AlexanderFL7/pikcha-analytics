@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00085",
+  "customer": {
+    "customer_id": "cus-1029",
+    "first_name": "Тарас",
+    "last_name": "Фокин"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на алл. Сосновая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Рыбинск",
+      "street": "наб. Кузнечная",
+      "house": "4",
+      "postal_code": "374521",
+      "coordinates": {
+        "latitude": -50.594116,
+        "longitude": 159.542123
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 580.56,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    }
+  ],
+  "total_amount": 580.56,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Мураши",
+    "street": "ул. Выгонная",
+    "house": "88",
+    "apartment": "82",
+    "postal_code": "453240"
+  },
+  "purchase_datetime": "2025-08-05T20:46:44.898742"
+}

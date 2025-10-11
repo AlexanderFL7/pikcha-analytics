@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1009",
+  "first_name": "Демьян",
+  "last_name": "Якушева",
+  "email": "arefi2021@example.org",
+  "phone": "+7 (200) 235-5537",
+  "birth_date": "1975-04-10",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.830499",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-6BADA75F60",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Алапаевск",
+    "street": "наб. Рязанская",
+    "house": "8/6",
+    "postal_code": "665519",
+    "coordinates": {
+      "latitude": 39.6892755,
+      "longitude": -55.008728
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Алапаевск",
+    "street": "пр. Крайний",
+    "house": "2/8",
+    "apartment": "53",
+    "postal_code": "088332"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

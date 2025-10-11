@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00115",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Агафон",
+    "last_name": "Чернов"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на наб. Фурманова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Октябрьский (Башк.)",
+      "street": "пр. Ангарский",
+      "house": "9",
+      "postal_code": "100715",
+      "coordinates": {
+        "latitude": -46.051428,
+        "longitude": 161.144183
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 634.3,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 634.3,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Снежинск",
+    "street": "пер. Маркса Карла",
+    "house": "620",
+    "apartment": "65",
+    "postal_code": "454799"
+  },
+  "purchase_datetime": "2025-06-29T20:46:44.915181"
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00154",
+  "customer": {
+    "customer_id": "cus-1022",
+    "first_name": "Олег",
+    "last_name": "Тетерин"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на пер. Физкультурный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Сунтар",
+      "street": "ул. Докучаева",
+      "house": "31",
+      "postal_code": "470575",
+      "coordinates": {
+        "latitude": 31.191561,
+        "longitude": -174.719622
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 422.82,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    }
+  ],
+  "total_amount": 422.82,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Ижевск",
+    "street": "пр. Депутатский",
+    "house": "1",
+    "apartment": "54",
+    "postal_code": "603501"
+  },
+  "purchase_datetime": "2025-07-21T20:46:44.936312"
+}

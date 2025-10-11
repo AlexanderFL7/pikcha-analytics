@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00107",
+  "customer": {
+    "customer_id": "cus-1026",
+    "first_name": "Юрий",
+    "last_name": "Гордеева"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пер. Набережный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Стерлитамак",
+      "street": "бул. Рябиновый",
+      "house": "3/3",
+      "postal_code": "450410",
+      "coordinates": {
+        "latitude": 16.1551925,
+        "longitude": -124.378009
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 470.36,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 470.36,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Охотск",
+    "street": "алл. Панфилова",
+    "house": "777",
+    "apartment": "71",
+    "postal_code": "305215"
+  },
+  "purchase_datetime": "2025-09-01T20:46:44.910971"
+}

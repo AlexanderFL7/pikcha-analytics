@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00193",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Осип",
+    "last_name": "Носков"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на алл. Сосновая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Рыбинск",
+      "street": "наб. Кузнечная",
+      "house": "4",
+      "postal_code": "374521",
+      "coordinates": {
+        "latitude": -50.594116,
+        "longitude": 159.542123
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 126.86,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 126.86,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "ш. Ломоносова",
+    "house": "826",
+    "apartment": "81",
+    "postal_code": "888209"
+  },
+  "purchase_datetime": "2025-08-02T20:46:44.957493"
+}

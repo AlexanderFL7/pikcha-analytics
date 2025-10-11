@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00077",
+  "customer": {
+    "customer_id": "cus-1000",
+    "first_name": "Лучезар",
+    "last_name": "Агафонов"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Радужный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Жигулевск",
+      "street": "наб. Гоголя",
+      "house": "50",
+      "postal_code": "716524",
+      "coordinates": {
+        "latitude": 83.971309,
+        "longitude": 11.626648
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1009",
+      "name": "Отметить",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 162.75,
+      "total_price": 651.0,
+      "kbju": {
+        "calories": 174.2,
+        "protein": 11.4,
+        "fat": 10.6,
+        "carbohydrates": 18.4
+      },
+      "manufacturer": {
+        "name": "ИП «Терентьев»",
+        "country": "Россия",
+        "website": "https://mihalov.edu",
+        "inn": "9891384491"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 788.72,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    }
+  ],
+  "total_amount": 1439.72,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Советский",
+    "street": "пер. Магистральный",
+    "house": "9/2",
+    "apartment": "23",
+    "postal_code": "631322"
+  },
+  "purchase_datetime": "2025-09-02T20:46:44.894425"
+}

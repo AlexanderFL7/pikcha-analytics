@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00104",
+  "customer": {
+    "customer_id": "cus-1014",
+    "first_name": "Агата",
+    "last_name": "Беспалова"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Тукая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Махачкала",
+      "street": "ш. Станционное",
+      "house": "27",
+      "postal_code": "606587",
+      "coordinates": {
+        "latitude": 64.3281635,
+        "longitude": -43.189159
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1006",
+      "name": "Появление",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 277.15,
+      "total_price": 554.3,
+      "kbju": {
+        "calories": 97.3,
+        "protein": 12.2,
+        "fat": 13.5,
+        "carbohydrates": 6.0
+      },
+      "manufacturer": {
+        "name": "Каргилл (Cargill)",
+        "country": "Россия",
+        "website": "https://ip.info",
+        "inn": "1371192760"
+      }
+    }
+  ],
+  "total_amount": 554.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Соловки",
+    "street": "ул. Минина",
+    "house": "3/6",
+    "apartment": "70",
+    "postal_code": "136064"
+  },
+  "purchase_datetime": "2025-08-27T20:46:44.909420"
+}

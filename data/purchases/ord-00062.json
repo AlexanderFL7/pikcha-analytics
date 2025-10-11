@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00062",
+  "customer": {
+    "customer_id": "cus-1039",
+    "first_name": "Сидор",
+    "last_name": "Третьяков"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на ш. Цветочное",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Куртамыш",
+      "street": "бул. Пригородный",
+      "house": "9/9",
+      "postal_code": "991902",
+      "coordinates": {
+        "latitude": 64.9155365,
+        "longitude": 67.020814
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 774.08,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    },
+    {
+      "product_id": "prd-1008",
+      "name": "Встать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 126.86,
+      "total_price": 126.86,
+      "kbju": {
+        "calories": 187.6,
+        "protein": 0.9,
+        "fat": 9.7,
+        "carbohydrates": 44.4
+      },
+      "manufacturer": {
+        "name": "Группа Содружество",
+        "country": "Россия",
+        "website": "https://singenta.net",
+        "inn": "9572534173"
+      }
+    }
+  ],
+  "total_amount": 900.94,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Нерчинск",
+    "street": "бул. Водников",
+    "house": "48",
+    "apartment": "73",
+    "postal_code": "170437"
+  },
+  "purchase_datetime": "2025-09-16T20:46:44.886219"
+}

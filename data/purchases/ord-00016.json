@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00016",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Феоктист",
+    "last_name": "Исакова"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Лазурный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Бугульма",
+      "street": "бул. Набережный",
+      "house": "181",
+      "postal_code": "988264",
+      "coordinates": {
+        "latitude": 75.969734,
+        "longitude": -114.81151
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 942.6,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    }
+  ],
+  "total_amount": 942.6,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Культуры",
+    "house": "7/8",
+    "apartment": "80",
+    "postal_code": "630860"
+  },
+  "purchase_datetime": "2025-07-29T20:46:44.861903"
+}

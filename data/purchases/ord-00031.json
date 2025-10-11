@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00031",
+  "customer": {
+    "customer_id": "cus-1009",
+    "first_name": "Демьян",
+    "last_name": "Якушева"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на пер. 70 лет Октября",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Советский",
+      "street": "пр. Веселый",
+      "house": "25",
+      "postal_code": "223053",
+      "coordinates": {
+        "latitude": -24.99498,
+        "longitude": 178.928714
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 500.88,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    }
+  ],
+  "total_amount": 500.88,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Алапаевск",
+    "street": "пр. Крайний",
+    "house": "2/8",
+    "apartment": "53",
+    "postal_code": "088332"
+  },
+  "purchase_datetime": "2025-07-06T20:46:44.870140"
+}

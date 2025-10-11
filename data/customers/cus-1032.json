@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1032",
+  "first_name": "Эмиль",
+  "last_name": "Яковлева",
+  "email": "karp58@example.com",
+  "phone": "+7 (070) 393-8918",
+  "birth_date": "2007-02-08",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.845607",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-10FDDA3CA3",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "д. Сергиев Посад",
+    "street": "пр. Северный",
+    "house": "940",
+    "postal_code": "385024",
+    "coordinates": {
+      "latitude": 23.3754115,
+      "longitude": 115.258416
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Сергиев Посад",
+    "street": "ш. Интернациональное",
+    "house": "2/1",
+    "apartment": "63",
+    "postal_code": "330309"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

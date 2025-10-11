@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00043",
+  "customer": {
+    "customer_id": "cus-1025",
+    "first_name": "Вера",
+    "last_name": "Тетерина"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на пер. Кошевого",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "д. Сергиев Посад",
+      "street": "пр. Северный",
+      "house": "940",
+      "postal_code": "385024",
+      "coordinates": {
+        "latitude": 23.3754115,
+        "longitude": 115.258416
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1017",
+      "name": "Сверкающий",
+      "category": "🥛🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 122.03,
+      "total_price": 122.03,
+      "kbju": {
+        "calories": 249.5,
+        "protein": 5.6,
+        "fat": 4.5,
+        "carbohydrates": 18.9
+      },
+      "manufacturer": {
+        "name": "ИП «Беляева-Котов»",
+        "country": "Россия",
+        "website": "https://kiselev.org",
+        "inn": "9359377194"
+      }
+    },
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 788.72,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    }
+  ],
+  "total_amount": 910.75,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Пятигорск",
+    "street": "пер. Сахалинский",
+    "house": "71",
+    "apartment": "78",
+    "postal_code": "332382"
+  },
+  "purchase_datetime": "2025-06-28T20:46:44.876273"
+}

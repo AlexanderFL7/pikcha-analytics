@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00190",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Трофим",
+    "last_name": "Игнатов"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Лазурный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Бугульма",
+      "street": "бул. Набережный",
+      "house": "181",
+      "postal_code": "988264",
+      "coordinates": {
+        "latitude": 75.969734,
+        "longitude": -114.81151
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 270.5,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    }
+  ],
+  "total_amount": 270.5,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Махачкала",
+    "street": "алл. Станционная",
+    "house": "740",
+    "apartment": "88",
+    "postal_code": "651769"
+  },
+  "purchase_datetime": "2025-07-31T20:46:44.955831"
+}

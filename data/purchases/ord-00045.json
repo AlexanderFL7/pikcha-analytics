@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00045",
+  "customer": {
+    "customer_id": "cus-1019",
+    "first_name": "Октябрина",
+    "last_name": "Лебедева"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на бул. Ульяновский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Оймякон",
+      "street": "бул. Малый",
+      "house": "492",
+      "postal_code": "411545",
+      "coordinates": {
+        "latitude": -54.0238005,
+        "longitude": -148.800514
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 220.52,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    }
+  ],
+  "total_amount": 220.52,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Стерлитамак",
+    "street": "ш. Серафимовича",
+    "house": "131",
+    "apartment": "14",
+    "postal_code": "596582"
+  },
+  "purchase_datetime": "2025-07-29T20:46:44.877403"
+}

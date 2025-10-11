@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00134",
+  "customer": {
+    "customer_id": "cus-1008",
+    "first_name": "Исай",
+    "last_name": "Дроздов"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на наб. Шаумяна",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Мураши",
+      "street": "ул. Больничная",
+      "house": "3/1",
+      "postal_code": "686487",
+      "coordinates": {
+        "latitude": 83.395695,
+        "longitude": -72.131337
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1012",
+      "name": "Демократия",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 235.65,
+      "total_price": 471.3,
+      "kbju": {
+        "calories": 190.1,
+        "protein": 7.7,
+        "fat": 3.8,
+        "carbohydrates": 26.4
+      },
+      "manufacturer": {
+        "name": "Бристоль",
+        "country": "Россия",
+        "website": "https://ooo.edu",
+        "inn": "3825942170"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 441.04,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    }
+  ],
+  "total_amount": 912.34,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Шенкурск",
+    "street": "пр. Береговой",
+    "house": "5/5",
+    "apartment": "6",
+    "postal_code": "541965"
+  },
+  "purchase_datetime": "2025-08-08T20:46:44.925510"
+}

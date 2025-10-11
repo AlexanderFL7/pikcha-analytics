@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00120",
+  "customer": {
+    "customer_id": "cus-1033",
+    "first_name": "Феоктист",
+    "last_name": "Исакова"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пер. Терешковой",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Брянск",
+      "street": "ул. Дружба",
+      "house": "8/1",
+      "postal_code": "714235",
+      "coordinates": {
+        "latitude": -48.4825335,
+        "longitude": 65.31398
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1003",
+      "name": "Дружно",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 267.17,
+      "total_price": 534.34,
+      "kbju": {
+        "calories": 188.8,
+        "protein": 2.2,
+        "fat": 6.8,
+        "carbohydrates": 25.9
+      },
+      "manufacturer": {
+        "name": "Игнатьев Инкорпорэйтед",
+        "country": "Россия",
+        "website": "https://npo.ru",
+        "inn": "7040581430"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 441.04,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    }
+  ],
+  "total_amount": 975.38,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Культуры",
+    "house": "7/8",
+    "apartment": "80",
+    "postal_code": "630860"
+  },
+  "purchase_datetime": "2025-09-10T20:46:44.917699"
+}

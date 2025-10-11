@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1037",
+  "first_name": "Терентий",
+  "last_name": "Евсеева",
+  "email": "zatsevafanasi@example.net",
+  "phone": "8 (915) 338-63-39",
+  "birth_date": "1970-11-16",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.848832",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-390C24B14A",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Теберда",
+    "street": "ул. Приморская",
+    "house": "8",
+    "postal_code": "295305",
+    "coordinates": {
+      "latitude": 2.967955,
+      "longitude": -173.679652
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Теберда",
+    "street": "ул. Набережная",
+    "house": "903",
+    "apartment": "81",
+    "postal_code": "253218"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

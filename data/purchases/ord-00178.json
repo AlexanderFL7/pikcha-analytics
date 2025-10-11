@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00178",
+  "customer": {
+    "customer_id": "cus-1025",
+    "first_name": "Вера",
+    "last_name": "Тетерина"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на пер. 50 лет Октября",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Шатой",
+      "street": "пр. Революции",
+      "house": "1",
+      "postal_code": "393291",
+      "coordinates": {
+        "latitude": -15.553275,
+        "longitude": 51.952024
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 286.2,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 774.08,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    }
+  ],
+  "total_amount": 1060.28,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Пятигорск",
+    "street": "пер. Сахалинский",
+    "house": "71",
+    "apartment": "78",
+    "postal_code": "332382"
+  },
+  "purchase_datetime": "2025-08-13T20:46:44.949221"
+}

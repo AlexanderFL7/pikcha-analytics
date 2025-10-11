@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00155",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Давыд",
+    "last_name": "Овчинникова"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на алл. Космическая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Палана",
+      "street": "ш. Боровое",
+      "house": "4",
+      "postal_code": "920689",
+      "coordinates": {
+        "latitude": -10.7121645,
+        "longitude": 110.676379
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 1154.1,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    },
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 532.8,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 1686.9,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "бул. Степана Разина",
+    "house": "9",
+    "apartment": "7",
+    "postal_code": "754571"
+  },
+  "purchase_datetime": "2025-07-04T20:46:44.936780"
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00128",
+  "customer": {
+    "customer_id": "cus-1002",
+    "first_name": "Руслан",
+    "last_name": "Иванова"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на пер. Терешковой",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Брянск",
+      "street": "ул. Дружба",
+      "house": "8/1",
+      "postal_code": "714235",
+      "coordinates": {
+        "latitude": -48.4825335,
+        "longitude": 65.31398
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 704.7,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    }
+  ],
+  "total_amount": 704.7,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Санкт-Петербург",
+    "street": "наб. Строителей",
+    "house": "58",
+    "apartment": "61",
+    "postal_code": "346182"
+  },
+  "purchase_datetime": "2025-07-24T20:46:44.922397"
+}

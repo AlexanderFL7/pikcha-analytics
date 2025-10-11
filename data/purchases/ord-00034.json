@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00034",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Леонид",
+    "last_name": "Исаева"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на бул. Васильковый",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ардон",
+      "street": "пер. Шевченко",
+      "house": "61",
+      "postal_code": "928635",
+      "coordinates": {
+        "latitude": -59.13895,
+        "longitude": -139.360649
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1014",
+      "name": "Другой",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 88.23,
+      "total_price": 441.15,
+      "kbju": {
+        "calories": 110.8,
+        "protein": 14.5,
+        "fat": 14.2,
+        "carbohydrates": 49.8
+      },
+      "manufacturer": {
+        "name": "ИП «Гусева»",
+        "country": "Россия",
+        "website": "https://rao.info",
+        "inn": "1587105093"
+      }
+    }
+  ],
+  "total_amount": 441.15,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ахтубинск",
+    "street": "ш. Коммунальное",
+    "house": "69",
+    "apartment": "71",
+    "postal_code": "846358"
+  },
+  "purchase_datetime": "2025-09-07T20:46:44.871726"
+}

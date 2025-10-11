@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00111",
+  "customer": {
+    "customer_id": "cus-1021",
+    "first_name": "Пимен",
+    "last_name": "Андреева"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на алл. Космическая",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Палана",
+      "street": "ш. Боровое",
+      "house": "4",
+      "postal_code": "920689",
+      "coordinates": {
+        "latitude": -10.7121645,
+        "longitude": 110.676379
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 834.8,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    }
+  ],
+  "total_amount": 834.8,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Бийск",
+    "street": "ул. Лазо",
+    "house": "125",
+    "apartment": "41",
+    "postal_code": "962065"
+  },
+  "purchase_datetime": "2025-09-16T20:46:44.913069"
+}

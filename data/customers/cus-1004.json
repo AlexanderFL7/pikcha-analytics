@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1004",
+  "first_name": "Кира",
+  "last_name": "Муравьев",
+  "email": "florentin2009@example.com",
+  "phone": "+7 (671) 618-62-88",
+  "birth_date": "1998-12-07",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.827417",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-D3FDD10273",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Медногорск",
+    "street": "алл. Дачная",
+    "house": "4/9",
+    "postal_code": "008241",
+    "coordinates": {
+      "latitude": -67.0179615,
+      "longitude": -54.624362
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Медногорск",
+    "street": "пер. Братский",
+    "house": "98",
+    "apartment": "84",
+    "postal_code": "672324"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

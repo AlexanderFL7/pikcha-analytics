@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1011",
+  "first_name": "Валерия",
+  "last_name": "Терентьев",
+  "email": "feliks_09@example.org",
+  "phone": "8 (160) 069-1427",
+  "birth_date": "1955-03-07",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.831721",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-9112EABD7B",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Калач-на-Дону",
+    "street": "пер. Коллективный",
+    "house": "62",
+    "postal_code": "101429",
+    "coordinates": {
+      "latitude": 6.385215,
+      "longitude": 90.9105
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Калач-на-Дону",
+    "street": "ул. Сосновая",
+    "house": "9",
+    "apartment": "2",
+    "postal_code": "046166"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

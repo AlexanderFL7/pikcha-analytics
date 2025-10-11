@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1039",
+  "first_name": "Сидор",
+  "last_name": "Третьяков",
+  "email": "pahom_00@example.com",
+  "phone": "8 598 502 8373",
+  "birth_date": "1962-01-07",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.850014",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-9FEA88261D",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Нерчинск",
+    "street": "ш. Флотское",
+    "house": "3/6",
+    "postal_code": "706139",
+    "coordinates": {
+      "latitude": 29.3292405,
+      "longitude": 88.567868
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Нерчинск",
+    "street": "бул. Водников",
+    "house": "48",
+    "apartment": "73",
+    "postal_code": "170437"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

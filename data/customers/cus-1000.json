@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1000",
+  "first_name": "Лучезар",
+  "last_name": "Агафонов",
+  "email": "evseevevgeni@example.com",
+  "phone": "+79155475195",
+  "birth_date": "1985-03-13",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.824710",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B566CFC017",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Советский",
+    "street": "пр. Веселый",
+    "house": "25",
+    "postal_code": "223053",
+    "coordinates": {
+      "latitude": -24.99498,
+      "longitude": 178.928714
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Советский",
+    "street": "пер. Магистральный",
+    "house": "9/2",
+    "apartment": "23",
+    "postal_code": "631322"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

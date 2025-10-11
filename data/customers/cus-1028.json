@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1028",
+  "first_name": "Трофим",
+  "last_name": "Игнатов",
+  "email": "vlasovsigizmund@example.net",
+  "phone": "+7 (365) 594-82-01",
+  "birth_date": "1994-08-02",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.842958",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-64DD167F9A",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Махачкала",
+    "street": "ш. Станционное",
+    "house": "27",
+    "postal_code": "606587",
+    "coordinates": {
+      "latitude": 64.3281635,
+      "longitude": -43.189159
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Махачкала",
+    "street": "алл. Станционная",
+    "house": "740",
+    "apartment": "88",
+    "postal_code": "651769"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00184",
+  "customer": {
+    "customer_id": "cus-1028",
+    "first_name": "Трофим",
+    "last_name": "Игнатов"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на пр. Лазурный",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Бугульма",
+      "street": "бул. Набережный",
+      "house": "181",
+      "postal_code": "988264",
+      "coordinates": {
+        "latitude": 75.969734,
+        "longitude": -114.81151
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 591.54,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 793.9,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    }
+  ],
+  "total_amount": 1385.44,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Махачкала",
+    "street": "алл. Станционная",
+    "house": "740",
+    "apartment": "88",
+    "postal_code": "651769"
+  },
+  "purchase_datetime": "2025-06-27T20:46:44.952510"
+}

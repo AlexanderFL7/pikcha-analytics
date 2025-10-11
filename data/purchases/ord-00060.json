@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00060",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Осип",
+    "last_name": "Носков"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на пр. Веселый",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Нерчинск",
+      "street": "ш. Флотское",
+      "house": "3/6",
+      "postal_code": "706139",
+      "coordinates": {
+        "latitude": 29.3292405,
+        "longitude": 88.567868
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 888.0,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 888.0,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "ш. Ломоносова",
+    "house": "826",
+    "apartment": "81",
+    "postal_code": "888209"
+  },
+  "purchase_datetime": "2025-07-14T20:46:44.885186"
+}

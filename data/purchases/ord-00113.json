@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00113",
+  "customer": {
+    "customer_id": "cus-1007",
+    "first_name": "Леонид",
+    "last_name": "Исаева"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на пер. 70 лет Октября",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Советский",
+      "street": "пр. Веселый",
+      "house": "25",
+      "postal_code": "223053",
+      "coordinates": {
+        "latitude": -24.99498,
+        "longitude": 178.928714
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 500.88,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    },
+    {
+      "product_id": "prd-1013",
+      "name": "Тесно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 193.52,
+      "total_price": 193.52,
+      "kbju": {
+        "calories": 192.4,
+        "protein": 19.9,
+        "fat": 3.4,
+        "carbohydrates": 24.4
+      },
+      "manufacturer": {
+        "name": "НПО «Белозерова, Одинцова и Петров»",
+        "country": "Россия",
+        "website": "https://obedinennaja.org",
+        "inn": "6189767985"
+      }
+    }
+  ],
+  "total_amount": 694.4,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ахтубинск",
+    "street": "ш. Коммунальное",
+    "house": "69",
+    "apartment": "71",
+    "postal_code": "846358"
+  },
+  "purchase_datetime": "2025-07-16T20:46:44.914063"
+}

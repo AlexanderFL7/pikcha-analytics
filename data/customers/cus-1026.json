@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1026",
+  "first_name": "Юрий",
+  "last_name": "Гордеева",
+  "email": "panfilovfilipp@example.org",
+  "phone": "8 730 442 8702",
+  "birth_date": "1987-06-12",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.841760",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B47CF99370",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Охотск",
+    "street": "наб. Рязанская",
+    "house": "196",
+    "postal_code": "210958",
+    "coordinates": {
+      "latitude": 83.3695455,
+      "longitude": 174.29863
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Охотск",
+    "street": "алл. Панфилова",
+    "house": "777",
+    "apartment": "71",
+    "postal_code": "305215"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

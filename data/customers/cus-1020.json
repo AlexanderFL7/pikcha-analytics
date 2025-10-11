@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1020",
+  "first_name": "Агафон",
+  "last_name": "Чернов",
+  "email": "adam62@example.org",
+  "phone": "8 (216) 484-0116",
+  "birth_date": "1972-04-14",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.837319",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2E52B1B19B",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Снежинск",
+    "street": "бул. Леваневского",
+    "house": "591",
+    "postal_code": "518529",
+    "coordinates": {
+      "latitude": -68.8199585,
+      "longitude": -74.561652
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Снежинск",
+    "street": "пер. Маркса Карла",
+    "house": "620",
+    "apartment": "65",
+    "postal_code": "454799"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

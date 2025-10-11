@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1023",
+  "first_name": "Ростислав",
+  "last_name": "Николаев",
+  "email": "kim2004@example.org",
+  "phone": "+7 521 831 33 29",
+  "birth_date": "2000-07-09",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.839850",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2FA1D1E25F",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "ст. Приозерск",
+    "street": "бул. Кольцевой",
+    "house": "17",
+    "postal_code": "097660",
+    "coordinates": {
+      "latitude": -29.291294,
+      "longitude": -161.041565
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Приозерск",
+    "street": "наб. Курортная",
+    "house": "52",
+    "apartment": "73",
+    "postal_code": "576944"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

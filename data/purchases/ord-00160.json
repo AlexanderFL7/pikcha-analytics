@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00160",
+  "customer": {
+    "customer_id": "cus-1024",
+    "first_name": "Давыд",
+    "last_name": "Овчинникова"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на бул. Ульяновский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Оймякон",
+      "street": "бул. Малый",
+      "house": "492",
+      "postal_code": "411545",
+      "coordinates": {
+        "latitude": -54.0238005,
+        "longitude": -148.800514
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1001",
+      "name": "Плавно",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 197.18,
+      "total_price": 591.54,
+      "kbju": {
+        "calories": 228.0,
+        "protein": 13.5,
+        "fat": 10.3,
+        "carbohydrates": 25.3
+      },
+      "manufacturer": {
+        "name": "ООО «Гордеева Терентьев»",
+        "country": "Россия",
+        "website": "https://ooo.com",
+        "inn": "5750189365"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 235.18,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 826.72,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "бул. Степана Разина",
+    "house": "9",
+    "apartment": "7",
+    "postal_code": "754571"
+  },
+  "purchase_datetime": "2025-08-13T20:46:44.939512"
+}

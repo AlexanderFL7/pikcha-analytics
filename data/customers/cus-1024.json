@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1024",
+  "first_name": "Давыд",
+  "last_name": "Овчинникова",
+  "email": "gshubin@example.org",
+  "phone": "+7 326 119 92 08",
+  "birth_date": "1966-10-20",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.840526",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-262209A4F1",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "пр. Ангарский",
+    "house": "9",
+    "postal_code": "100715",
+    "coordinates": {
+      "latitude": -46.051428,
+      "longitude": 161.144183
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Октябрьский (Башк.)",
+    "street": "бул. Степана Разина",
+    "house": "9",
+    "apartment": "7",
+    "postal_code": "754571"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

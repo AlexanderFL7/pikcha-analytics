@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00123",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Никандр",
+    "last_name": "Воробьев"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на бул. Ульяновский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Оймякон",
+      "street": "бул. Малый",
+      "house": "492",
+      "postal_code": "411545",
+      "coordinates": {
+        "latitude": -54.0238005,
+        "longitude": -148.800514
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 230.82,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    }
+  ],
+  "total_amount": 230.82,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Брянск",
+    "street": "алл. Пограничная",
+    "house": "8/9",
+    "apartment": "78",
+    "postal_code": "650578"
+  },
+  "purchase_datetime": "2025-09-14T20:46:44.919396"
+}

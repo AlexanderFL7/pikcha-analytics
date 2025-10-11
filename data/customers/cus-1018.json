@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1018",
+  "first_name": "Панкратий",
+  "last_name": "Котов",
+  "email": "mstislav89@example.com",
+  "phone": "8 234 564 5640",
+  "birth_date": "1983-08-07",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.836113",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-1CF3D47BA2",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Рыбинск",
+    "street": "наб. Кузнечная",
+    "house": "4",
+    "postal_code": "374521",
+    "coordinates": {
+      "latitude": -50.594116,
+      "longitude": 159.542123
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Рыбинск",
+    "street": "бул. Минский",
+    "house": "921",
+    "apartment": "52",
+    "postal_code": "323174"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00055",
+  "customer": {
+    "customer_id": "cus-1003",
+    "first_name": "Михаил",
+    "last_name": "Лукин"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на бул. Полевой",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "клх Бодайбо",
+      "street": "наб. Флотская",
+      "house": "824",
+      "postal_code": "022330",
+      "coordinates": {
+        "latitude": -43.15977,
+        "longitude": 65.286955
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1004",
+      "name": "Вперед",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 143.1,
+      "total_price": 429.3,
+      "kbju": {
+        "calories": 155.3,
+        "protein": 2.2,
+        "fat": 9.9,
+        "carbohydrates": 35.7
+      },
+      "manufacturer": {
+        "name": "ООО «Зайцева-Блохина»",
+        "country": "Россия",
+        "website": "https://ip.biz",
+        "inn": "7488337098"
+      }
+    }
+  ],
+  "total_amount": 429.3,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "г. Волгоград",
+    "street": "наб. Кооперативная",
+    "house": "15",
+    "apartment": "23",
+    "postal_code": "387393"
+  },
+  "purchase_datetime": "2025-09-17T20:46:44.882780"
+}

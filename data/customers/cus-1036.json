@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1036",
+  "first_name": "Касьян",
+  "last_name": "Шестаков",
+  "email": "ivan_2021@example.net",
+  "phone": "+70058838814",
+  "birth_date": "2003-11-17",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.848141",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-0BDBE0C8E1",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Апатиты",
+    "street": "пр. Шаумяна",
+    "house": "4",
+    "postal_code": "847717",
+    "coordinates": {
+      "latitude": -33.1435305,
+      "longitude": -179.026289
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Апатиты",
+    "street": "пр. Чапаева",
+    "house": "8",
+    "apartment": "23",
+    "postal_code": "605001"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

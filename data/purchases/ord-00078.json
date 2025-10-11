@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00078",
+  "customer": {
+    "customer_id": "cus-1037",
+    "first_name": "Терентий",
+    "last_name": "Евсеева"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на бул. Ульяновский",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Оймякон",
+      "street": "бул. Малый",
+      "house": "492",
+      "postal_code": "411545",
+      "coordinates": {
+        "latitude": -54.0238005,
+        "longitude": -148.800514
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 476.34,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    },
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 705.54,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    }
+  ],
+  "total_amount": 1181.88,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Теберда",
+    "street": "ул. Набережная",
+    "house": "903",
+    "apartment": "81",
+    "postal_code": "253218"
+  },
+  "purchase_datetime": "2025-08-08T20:46:44.895105"
+}

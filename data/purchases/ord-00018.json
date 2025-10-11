@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00018",
+  "customer": {
+    "customer_id": "cus-1020",
+    "first_name": "Агафон",
+    "last_name": "Чернов"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на пер. Курчатова",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "к. Юрьевец (Иван.)",
+      "street": "алл. Брянская",
+      "house": "7/6",
+      "postal_code": "936652",
+      "coordinates": {
+        "latitude": -73.519794,
+        "longitude": -111.732361
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1000",
+      "name": "Прошептать",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 4,
+      "unit": "шт",
+      "price_per_unit": 54.1,
+      "total_price": 216.4,
+      "kbju": {
+        "calories": 80.2,
+        "protein": 19.1,
+        "fat": 4.4,
+        "carbohydrates": 9.8
+      },
+      "manufacturer": {
+        "name": "Слата супермаркет",
+        "country": "Россия",
+        "website": "https://don-stro.info",
+        "inn": "8354653207"
+      }
+    }
+  ],
+  "total_amount": 216.4,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Снежинск",
+    "street": "пер. Маркса Карла",
+    "house": "620",
+    "apartment": "65",
+    "postal_code": "454799"
+  },
+  "purchase_datetime": "2025-08-19T20:46:44.862862"
+}

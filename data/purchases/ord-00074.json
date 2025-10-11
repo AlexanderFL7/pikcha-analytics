@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00074",
+  "customer": {
+    "customer_id": "cus-1042",
+    "first_name": "Осип",
+    "last_name": "Носков"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на алл. Тукая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "с. Махачкала",
+      "street": "ш. Станционное",
+      "house": "27",
+      "postal_code": "606587",
+      "coordinates": {
+        "latitude": 64.3281635,
+        "longitude": -43.189159
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1005",
+      "name": "Вообще",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 99.89,
+      "total_price": 99.89,
+      "kbju": {
+        "calories": 246.2,
+        "protein": 1.2,
+        "fat": 4.1,
+        "carbohydrates": 13.7
+      },
+      "manufacturer": {
+        "name": "Центр финансовых технологий",
+        "country": "Россия",
+        "website": "https://zao.ru",
+        "inn": "1033506434"
+      }
+    }
+  ],
+  "total_amount": 99.89,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "ст. Куртамыш",
+    "street": "ш. Ломоносова",
+    "house": "826",
+    "apartment": "81",
+    "postal_code": "888209"
+  },
+  "purchase_datetime": "2025-06-30T20:46:44.892746"
+}

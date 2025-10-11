@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1017",
+  "first_name": "Аполлинарий",
+  "last_name": "Рожков",
+  "email": "wmaslova@example.org",
+  "phone": "+73490026838",
+  "birth_date": "1970-04-08",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.835406",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-8415A251E2",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "п. Оймякон",
+    "street": "бул. Малый",
+    "house": "492",
+    "postal_code": "411545",
+    "coordinates": {
+      "latitude": -54.0238005,
+      "longitude": -148.800514
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Оймякон",
+    "street": "бул. Седова",
+    "house": "9",
+    "apartment": "59",
+    "postal_code": "305047"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

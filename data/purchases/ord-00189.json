@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00189",
+  "customer": {
+    "customer_id": "cus-1013",
+    "first_name": "Артемий",
+    "last_name": "Блинова"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на ш. Цветочное",
+    "store_network": "Маленькая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Куртамыш",
+      "street": "бул. Пригородный",
+      "house": "9/9",
+      "postal_code": "991902",
+      "coordinates": {
+        "latitude": 64.9155365,
+        "longitude": 67.020814
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1016",
+      "name": "Бровь",
+      "category": "🍏🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 177.6,
+      "total_price": 355.2,
+      "kbju": {
+        "calories": 216.5,
+        "protein": 13.6,
+        "fat": 3.1,
+        "carbohydrates": 40.9
+      },
+      "manufacturer": {
+        "name": "Воронов Лимитед",
+        "country": "Россия",
+        "website": "https://oao.ru",
+        "inn": "1410408027"
+      }
+    }
+  ],
+  "total_amount": 355.2,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Ардон",
+    "street": "бул. Ключевой",
+    "house": "10",
+    "apartment": "88",
+    "postal_code": "019542"
+  },
+  "purchase_datetime": "2025-08-23T20:46:44.955092"
+}

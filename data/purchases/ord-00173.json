@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00173",
+  "customer": {
+    "customer_id": "cus-1030",
+    "first_name": "Иванна",
+    "last_name": "Федосеева"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на пр. Радужный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "ст. Жигулевск",
+      "street": "наб. Гоголя",
+      "house": "50",
+      "postal_code": "716524",
+      "coordinates": {
+        "latitude": 83.971309,
+        "longitude": 11.626648
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1011",
+      "name": "Горький",
+      "category": "🥦🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 166.96,
+      "total_price": 166.96,
+      "kbju": {
+        "calories": 258.6,
+        "protein": 15.3,
+        "fat": 3.2,
+        "carbohydrates": 34.7
+      },
+      "manufacturer": {
+        "name": "ОАО «Беспалов Щукин»",
+        "country": "Россия",
+        "website": "https://kamaz.ru",
+        "inn": "1018195586"
+      }
+    },
+    {
+      "product_id": "prd-1010",
+      "name": "Совещание",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 5,
+      "unit": "шт",
+      "price_per_unit": 140.94,
+      "total_price": 704.7,
+      "kbju": {
+        "calories": 263.2,
+        "protein": 12.0,
+        "fat": 0.2,
+        "carbohydrates": 48.6
+      },
+      "manufacturer": {
+        "name": "ГК СНС",
+        "country": "Россия",
+        "website": "https://mosgortrans.org",
+        "inn": "8431759955"
+      }
+    },
+    {
+      "product_id": "prd-1002",
+      "name": "Бровь",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 87.78,
+      "total_price": 87.78,
+      "kbju": {
+        "calories": 70.5,
+        "protein": 2.0,
+        "fat": 3.6,
+        "carbohydrates": 1.3
+      },
+      "manufacturer": {
+        "name": "РАО «Уварова Захарова»",
+        "country": "Россия",
+        "website": "https://ip.net",
+        "inn": "7511099076"
+      }
+    }
+  ],
+  "total_amount": 959.44,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Амдерма",
+    "street": "алл. Луначарского",
+    "house": "9/4",
+    "apartment": "67",
+    "postal_code": "750317"
+  },
+  "purchase_datetime": "2025-06-26T20:46:44.946455"
+}

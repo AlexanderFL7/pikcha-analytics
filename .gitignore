@@ -1,0 +1,12 @@
+clickhouse_data/
+minio_data/
+postgres_data/
+docker/airflow/logs/
+docker/airflow/.pytest_cache
+__pycache__/
+*.pyc
+.env
+venv/
+venv311/
+*.db
+*.log

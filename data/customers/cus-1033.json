@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1033",
+  "first_name": "Феоктист",
+  "last_name": "Исакова",
+  "email": "svetlana50@example.com",
+  "phone": "+7 506 717 57 14",
+  "birth_date": "1990-01-10",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.846197",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-BC09048134",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Радищева",
+    "house": "47",
+    "postal_code": "921412",
+    "coordinates": {
+      "latitude": 49.192579,
+      "longitude": 155.72815
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "к. Верхнее Пенжино",
+    "street": "пр. Культуры",
+    "house": "7/8",
+    "apartment": "80",
+    "postal_code": "630860"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1044",
+  "first_name": "Ефим",
+  "last_name": "Авдеев",
+  "email": "maksimovaeleonora@example.org",
+  "phone": "8 634 492 71 86",
+  "birth_date": "1979-11-14",
+  "gender": "female",
+  "registration_date": "2025-09-24T20:46:44.853091",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B7168E34DC",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "д. Энгельс",
+    "street": "наб. 30 лет Победы",
+    "house": "587",
+    "postal_code": "029096",
+    "coordinates": {
+      "latitude": 17.138524,
+      "longitude": 38.567382
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "д. Энгельс",
+    "street": "пр. Красногвардейский",
+    "house": "661",
+    "apartment": "39",
+    "postal_code": "370690"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

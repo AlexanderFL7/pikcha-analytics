@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00008",
+  "customer": {
+    "customer_id": "cus-1004",
+    "first_name": "Кира",
+    "last_name": "Муравьев"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на наб. Моховая",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "п. Ахтубинск",
+      "street": "наб. 60 лет СССР",
+      "house": "19",
+      "postal_code": "888309",
+      "coordinates": {
+        "latitude": -31.694923,
+        "longitude": 132.83995
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1015",
+      "name": "Решетка",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 230.82,
+      "total_price": 461.64,
+      "kbju": {
+        "calories": 82.4,
+        "protein": 10.9,
+        "fat": 9.6,
+        "carbohydrates": 26.8
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин Якушева»",
+        "country": "Россия",
+        "website": "https://dorofeeva.edu",
+        "inn": "1396238712"
+      }
+    },
+    {
+      "product_id": "prd-1018",
+      "name": "Вывести",
+      "category": "🥖🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 110.26,
+      "total_price": 220.52,
+      "kbju": {
+        "calories": 210.9,
+        "protein": 18.4,
+        "fat": 11.2,
+        "carbohydrates": 24.6
+      },
+      "manufacturer": {
+        "name": "ИП «Шубин»",
+        "country": "Россия",
+        "website": "https://oao.net",
+        "inn": "4475442883"
+      }
+    }
+  ],
+  "total_amount": 682.16,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "п. Медногорск",
+    "street": "пер. Братский",
+    "house": "98",
+    "apartment": "84",
+    "postal_code": "672324"
+  },
+  "purchase_datetime": "2025-07-01T20:46:44.857945"
+}

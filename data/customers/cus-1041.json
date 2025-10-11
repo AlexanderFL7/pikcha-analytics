@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-1041",
+  "first_name": "Надежда",
+  "last_name": "Устинов",
+  "email": "kalashnikovvlas@example.com",
+  "phone": "+7 926 363 05 75",
+  "birth_date": "1978-10-24",
+  "gender": "male",
+  "registration_date": "2025-09-24T20:46:44.851277",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-3CED7E1454",
+  "purchase_location": {
+    "country": "Россия",
+    "city": "с. Набережные Челны",
+    "street": "алл. Маркса",
+    "house": "814",
+    "postal_code": "282306",
+    "coordinates": {
+      "latitude": -26.2787815,
+      "longitude": -52.125648
+    }
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "с. Набережные Челны",
+    "street": "пр. Тукая",
+    "house": "1",
+    "apartment": "99",
+    "postal_code": "636338"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

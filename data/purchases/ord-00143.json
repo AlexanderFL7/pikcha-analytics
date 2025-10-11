@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00143",
+  "customer": {
+    "customer_id": "cus-1027",
+    "first_name": "Никандр",
+    "last_name": "Воробьев"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на бул. Тракторный",
+    "store_network": "Большая Пикча",
+    "location": {
+      "country": "Россия",
+      "city": "г. Пинега",
+      "street": "алл. Победы",
+      "house": "59",
+      "postal_code": "977602",
+      "coordinates": {
+        "latitude": -78.962288,
+        "longitude": 133.956041
+      }
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-1019",
+      "name": "Факультет",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 235.18,
+      "total_price": 705.54,
+      "kbju": {
+        "calories": 58.6,
+        "protein": 16.5,
+        "fat": 3.7,
+        "carbohydrates": 31.4
+      },
+      "manufacturer": {
+        "name": "РАО «Шашков-Русаков»",
+        "country": "Россия",
+        "website": "https://ooo.net",
+        "inn": "1916611348"
+      }
+    },
+    {
+      "product_id": "prd-1007",
+      "name": "Адвокат",
+      "category": "🥩🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 158.78,
+      "total_price": 476.34,
+      "kbju": {
+        "calories": 124.0,
+        "protein": 13.0,
+        "fat": 9.6,
+        "carbohydrates": 29.6
+      },
+      "manufacturer": {
+        "name": "Группа компаний МИЦ",
+        "country": "Россия",
+        "website": "https://ao.edu",
+        "inn": "8542154004"
+      }
+    }
+  ],
+  "total_amount": 1181.88,
+  "payment_method": "card",
+  "is_delivery": false,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "клх Брянск",
+    "street": "алл. Пограничная",
+    "house": "8/9",
+    "apartment": "78",
+    "postal_code": "650578"
+  },
+  "purchase_datetime": "2025-08-23T20:46:44.929870"
+}
