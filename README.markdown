@@ -129,10 +129,10 @@ Below are key visuals of the project in action:
    **Services**:
    | Service    | URL                       | Credentials         |
    |------------|---------------------------|---------------------|
-   | Airflow    | http://localhost:8080     | airflow / airflow    |
-   | Grafana    | http://localhost:3000     | admin / Grafana1122 |
+   | Airflow    | http://localhost:8080     | admin / admin       |
+   | Grafana    | http://localhost:3000     | admin / admin       |
    | ClickHouse | http://localhost:8123     | —                   |
-   | MinIO      | http://localhost:9001     | admin / admin123    |
+   | MinIO      | http://localhost:9001     | minio / minio123    |
    | MongoDB    | mongodb://localhost:27017 | —                   |
    | Kafka      | host.docker.internal:9092 | —                   |
 
