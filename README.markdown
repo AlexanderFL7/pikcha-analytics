@@ -99,8 +99,8 @@ pikcha-analytics/
    POSTGRES_PASSWORD=airflow
    CLICKHOUSE_USER=default
    CLICKHOUSE_PASSWORD=
-   MINIO_ROOT_USER=admin
-   MINIO_ROOT_PASSWORD=admin123
+   MINIO_ROOT_USER=minio
+   MINIO_ROOT_PASSWORD=minio123
    MINIO_BUCKET_NAME=analytics
    KAFKA_BOOTSTRAP=host.docker.internal:9092
    KAFKA_MASK_KEY=my_secret_key
