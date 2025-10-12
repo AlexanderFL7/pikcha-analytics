@@ -27,44 +27,72 @@ Pikcha Analytics is a complete end-to-end real-time ETL and analytics platform f
 ## Project Structure
 ```
 pikcha-analytics/
-├── clickhouse/
-│   └── init_clickhouse.sql       # Initializes ClickHouse tables automatically
-├── dags/
-│   └── etl_dag.py                # Airflow DAG for daily ETL process
 ├── data/                         # Generated data
-│   ├── customers/
-│   ├── products/
-│   ├── purchases/
-│   └── stores/
-├── docker/
-│   ├── Dockerfile.airflow        # Airflow custom image
+│   ├── customers/                # Customer JSON files
+│   ├── products/                 # Product JSON files
+│   ├── purchases/                # Purchase JSON files
+│   └── stores/                   # Store JSON files
+├── docker/                       # Docker configurations
+│   ├── airflow/                  # Airflow setup
+│   │   ├── dags/                 # Airflow DAGs
+│   │   │   └── pikcha_etl_daily.py
+│   │   ├── plugins/              # Airflow plugins
+│   │   ├── logs/                 # Airflow logs (ignored)
+│   │   ├── postgres_data/        # Postgres data (ignored)
+│   │   ├── requirements-airflow.txt
+│   │   └── Dockerfile.airflow
+│   ├── clickhouse/               # ClickHouse setup
+│   │   ├── config.xml
+│   │   ├── listen.xml
+│   │   ├── users.xml
+│   │   └── init_clickhouse.sql   # Initializes ClickHouse tables
+│   ├── grafana/                  # Grafana setup
+│   │   └── provisioning/
+│   │       ├── alerting/         # Alert rules
+│   │       │   └── config.json
+│   │       ├── dashboards/       # Dashboard config
+│   │       │   └── dashboard.yml
+│   │       └── datasources/      # Datasource config
+│   │           └── datasource.yml
 │   └── python.Dockerfile         # Kafka/ClickHouse Python image
-├── docs/
-│   └── run_instructions.md       # Setup documentation
-├── etl/
-│   ├── pyspark_etl.py            # Feature computation via PySpark
-│   └── requirements.txt          # Dependencies
-├── generator/
+├── scripts/                      # Scripts for data generation and ETL
 │   ├── generate_data.py          # Synthetic data generator
-│   └── sample_products.json      # Product template
-├── grafana/
-│   ├── dashboards/
-│   │   └── dashboard.json        # Exported Grafana dashboard
-│   └── provisioning/
-│       ├── dashboards/
-│       │   └── dashboard.yml     # Dashboard provisioning
-│       ├── datasources/
-│       │   └── datasource.yml    # ClickHouse datasource config
-│       └── alerting/
-│           └── contact-points.yml # Telegram alert contact point
-├── loader/
-│   ├── load_to_nosql.py          # Load JSON data into MongoDB
+│   ├── load_to_mongo.py          # Load JSON data into MongoDB
 │   ├── kafka_publisher.py        # Publish messages to Kafka
-│   └── kafka_to_clickhouse.py    # Stream Kafka → ClickHouse
-├── outputs/                      # ETL results (CSV/Parquet)
-├── docker-compose.yml            # All services (root level)
-└── README.md
+│   ├── kafka_to_clickhouse.py    # Stream Kafka → ClickHouse
+│   ├── etl_features.py           # Feature computation via PySpark
+│   ├── pyspark_etl.py            # ETL pipeline
+│   ├── pyspark_check.py          # PySpark checks
+│   ├── check_minio.py           # MinIO checks
+│   ├── kafka_consume_sample.py   # Kafka consumer sample
+│   └── outputs/                  # ETL results (CSV/Parquet)
+├── screen/                       # Screenshots for documentation
+│   ├── Airflow.png               # Airflow DAG success
+│   ├── Minio.png                 # MinIO file upload
+│   ├── Shema.jpg                 # Project architecture schema
+│   ├── Tg_alert.png              # Telegram alert
+│   ├── alert_rules.png           # Grafana alert rules
+│   └── dashboard.png             # Grafana dashboard
+├── docker-compose.yml            # All services
+├── README.markdown               # Project documentation
+└── spark-env.cmd                 # Spark environment config
 ```
+
+## Screenshots
+Below are key visuals of the project in action:
+
+- **Architecture Schema**:  
+  ![Architecture Schema](screen/Shema.jpg)
+- **Airflow DAG Success**:  
+  ![Airflow DAG](screen/Airflow.png)
+- **Grafana Dashboard**:  
+  ![Grafana Dashboard](screen/dashboard.png)
+- **Grafana Alert Rules**:  
+  ![Alert Rules](screen/alert_rules.png)
+- **MinIO File Upload**:  
+  ![MinIO Upload](screen/Minio.png)
+- **Telegram Alert**:  
+  ![Telegram Alert](screen/Tg_alert.png)
 
 ## Installation & Setup
 1. **Clone the repository**:
@@ -92,7 +120,7 @@ pikcha-analytics/
    ```
 
 3. **Launch all services**:
-   From the project root (not from `docker/`):
+   From the project root:
    ```bash
    docker compose up -d
    docker ps
@@ -113,16 +141,16 @@ pikcha-analytics/
 4. **Generate and load data**:
    Activate your Python environment and run:
    ```bash
-   python generator/generate_data.py
-   python loader/load_to_nosql.py
-   python loader/kafka_publisher.py
-   python loader/kafka_to_clickhouse.py
+   python scripts/generate_data.py
+   python scripts/load_to_mongo.py
+   python scripts/kafka_publisher.py
+   python scripts/kafka_to_clickhouse.py
    ```
 
 5. **Run the ETL pipeline**:
    Run manually:
    ```bash
-   python etl/pyspark_etl.py
+   python scripts/pyspark_etl.py
    ```
    Or use Airflow:
    - Go to http://localhost:8080
@@ -133,7 +161,7 @@ All Grafana components are provisioned automatically on startup.
 **Provisioned files**:
 - Dashboard: `grafana/dashboards/dashboard.json`
 - Data source: `grafana/provisioning/datasources/datasource.yml`
-- Alerts: `grafana/provisioning/alerting/contact-points.yml`
+- Alerts: `grafana/provisioning/alerting/config.json`
 
 **Check in Grafana**:
 - Connections → Data Sources → ClickHouse
@@ -141,7 +169,7 @@ All Grafana components are provisioned automatically on startup.
 - Alerting → Contact points → Telegram Piccha
 
 ## Telegram Alerts
-**Example configuration** (`contact-points.yml`):
+**Example configuration** (`grafana/provisioning/alerting/config.json`):
 ```yaml
 apiVersion: 1
 contactPoints:
@@ -177,7 +205,6 @@ The dashboard includes:
 - Region-based analytics
 
 ## Documentation
-- Setup guide: `docs/run_instructions.md`
 - [Airflow Documentation](https://airflow.apache.org/docs/)
 - [ClickHouse Documentation](https://clickhouse.com/docs/)
 - [Grafana Documentation](https://grafana.com/docs/)
