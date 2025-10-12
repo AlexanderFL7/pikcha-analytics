@@ -10,7 +10,7 @@ spark = SparkSession.builder \
     .appName("PicchaETL") \
     .getOrCreate()
 
-# --- Читаем данные из ClickHouse ---
+
 client = Client(host='localhost')
 
 # customers
@@ -29,7 +29,6 @@ products_df = pd.DataFrame(products, columns=[x[0] for x in client.execute("DESC
 products_spark = spark.createDataFrame(products_df)
 
 # --- Считаем признаки ---
-# пример: покупал молочку за 30 дней
 features = purchases_spark.join(products_spark, "product_id", "left") \
     .groupBy("customer_id") \
     .agg(

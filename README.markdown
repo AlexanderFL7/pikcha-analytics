@@ -170,12 +170,14 @@ All Grafana components are provisioned automatically on startup.
 **To test in Grafana**:
 - Alerting → Contact Points → Telegram Piccha → Send Test Notification
 
-When duplicates exceed 50% in any table, a notification is sent to the configured Telegram chat, alerting the team about data quality issues.  
+When duplicates exceed 50% in any table, a notification is sent to the configured Telegram chat, alerting the team about data quality issues. 
+ 
 **Telegram Alert**:  
 ![Telegram Alert](screen/Tg_alert.png)
 
 ## MinIO File Upload
 Processed analytics results are uploaded to MinIO as CSV files (e.g., `analytic_result_2025_08_01.csv`), containing customer behavior features for clustering.  
+
 **MinIO Upload**:  
 ![MinIO Upload](screen/Minio.png)
 
