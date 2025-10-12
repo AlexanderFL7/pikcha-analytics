@@ -1,18 +1,20 @@
 # Pikcha Analytics
 
-Pikcha Analytics is a complete end-to-end real-time ETL and analytics platform for the retail chain “Pikcha”. It handles data generation, streaming via Kafka, transformation in PySpark, analytics in ClickHouse, orchestration in Airflow, and visualization and alerting in Grafana with Telegram notifications.
+Pikcha Analytics is a comprehensive end-to-end real-time ETL and analytics platform developed for the retail chain “Pikcha”. The platform processes data from a simulated NoSQL storage (representing the customer’s CRM), streams it via Kafka with sensitive data (email, phone) masked, stores raw data in ClickHouse, transforms it using PySpark for advanced analytics, orchestrates workflows with Airflow, and visualizes insights in Grafana dashboards with Telegram notifications for anomalies (e.g., >50% duplicates in data).
 
 **Architecture Schema**:  
 ![Architecture Schema](screen/Shema.jpg)
 
 ## Project Goals
-- Generate synthetic data for customers, purchases, stores, and products
-- Stream and mask sensitive data (emails, phones) via Kafka
-- Store and analyze data in ClickHouse (raw + clean layers)
-- Compute advanced features using PySpark and export to MinIO
-- Visualize insights in Grafana dashboards
-- Automate pipelines using Airflow DAGs
-- Send alerts to Telegram when anomalies are detected
+- **Data Generation**: Generate synthetic JSON data for 45 stores (30 “Большая Пикча” >200 sq.m., 15 “Маленькая Пикча” <100 sq.m.), 20+ products across 5 categories (Grain/Bakery, Meat/Fish/Eggs, Dairy, Fruits/Berries, Vegetables/Greens), 45+ customers (at least one per store), and 200+ purchases.
+- **Data Ingestion**: Load JSON files into MongoDB (simulating customer’s NoSQL storage) using Python scripts.
+- **Streaming & Masking**: Stream data via Kafka, masking sensitive fields (email, phone) before loading into ClickHouse RAW storage.
+- **Raw Storage**: Store raw data in ClickHouse with appropriate table schemas for customers, stores, products, and purchases, preserving original data types (e.g., phone as STRING).
+- **Data Cleaning**: Implement an ETL pipeline in ClickHouse using Materialized Views to clean data (remove duplicates, nulls, empty strings, invalid dates) and convert to lowercase, creating a MART layer.
+- **Feature Engineering**: Compute 30 customer behavior features (e.g., `bought_milk_last_30d`, `recurrent_buyer`, `vegetarian_profile`) using PySpark, stored as CSV in MinIO.
+- **Orchestration**: Automate the ETL pipeline with Airflow DAGs, scheduled daily at 10:00.
+- **Visualization & Alerting**: Visualize purchase and store metrics in Grafana dashboards and send Telegram alerts for data anomalies (e.g., >50% duplicates).
+- **Output Storage**: Export analytics results to MinIO as CSV files (e.g., `analytic_result_2025_08_01.csv`).
 
 ## Tech Stack
 | Component        | Purpose                           |
@@ -20,7 +22,7 @@ Pikcha Analytics is a complete end-to-end real-time ETL and analytics platform f
 | Python 3.11     | Data generation and ETL scripts   |
 | Airflow         | Workflow orchestration            |
 | Kafka + Zookeeper | Streaming data pipeline          |
-| ClickHouse      | Analytical data storage           |
+| ClickHouse      | Analytical data storage (RAW & MART) |
 | PySpark         | Feature computation and aggregation |
 | MongoDB         | Raw JSON storage (simulated CRM)  |
 | MinIO           | Object storage (S3-compatible)    |
@@ -168,11 +170,13 @@ All Grafana components are provisioned automatically on startup.
 **To test in Grafana**:
 - Alerting → Contact Points → Telegram Piccha → Send Test Notification
 
+When duplicates exceed 50% in any table, a notification is sent to the configured Telegram chat, alerting the team about data quality issues.  
 **Telegram Alert**:  
 ![Telegram Alert](screen/Tg_alert.png)
 
 ## MinIO File Upload
-Processed files are successfully uploaded to MinIO:  
+Processed analytics results are uploaded to MinIO as CSV files (e.g., `analytic_result_2025_08_01.csv`), containing customer behavior features for clustering.  
+**MinIO Upload**:  
 ![MinIO Upload](screen/Minio.png)
 
 ## Monitoring Overview
@@ -185,7 +189,8 @@ Processed files are successfully uploaded to MinIO:
 | Telegram         | Alerts successfully sent                        |
 
 ## Dashboard Overview
-The dashboard includes:
+The dashboard visualizes:
+- Total purchases (200) and stores (45) to confirm data volume
 - Total purchases and revenue by store
 - Top 10 products by sales
 - Purchase trends by day
