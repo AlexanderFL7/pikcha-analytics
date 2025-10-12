@@ -1,106 +1,95 @@
-# 🧠 Pikcha Analytics
+Pikcha Analytics
 
-**Pikcha Analytics** is a complete end-to-end **real-time ETL and analytics platform** for a retail chain “Pikcha”.  
-It handles data generation, streaming via Kafka, transformation in PySpark, analytics in ClickHouse, orchestration in Airflow, and visualization & alerting in Grafana with Telegram notifications.
+Pikcha Analytics is a complete end-to-end real-time ETL and analytics platform for the retail chain “Pikcha”.
+It handles data generation, streaming via Kafka, transformation in PySpark, analytics in ClickHouse, orchestration in Airflow, and visualization and alerting in Grafana with Telegram notifications.
 
----
+Project Goals
 
-## 🚀 Project Goals
+Generate synthetic data for customers, purchases, stores, and products
 
-- Generate synthetic data for customers, purchases, stores, and products.  
-- Stream and mask sensitive data (emails, phones) via **Kafka**.  
-- Store and analyze data in **ClickHouse** (raw + clean layers).  
-- Compute advanced features with **PySpark** and export to **MinIO**.  
-- Visualize insights in **Grafana** dashboards.  
-- Automate all pipelines using **Airflow DAGs**.  
-- Send alerts to **Telegram** when anomalies are detected.
+Stream and mask sensitive data (emails, phones) via Kafka
 
----
+Store and analyze data in ClickHouse (raw + clean layers)
 
-## 🧩 Tech Stack
+Compute advanced features using PySpark and export to MinIO
 
-| Component | Purpose |
-|------------|----------|
-| **Python 3.11** | Data generation and ETL scripts |
-| **Airflow** | Workflow orchestration |
-| **Kafka + Zookeeper** | Streaming data pipeline |
-| **ClickHouse** | Analytical data storage |
-| **PySpark** | Feature computation and aggregation |
-| **MongoDB** | Raw JSON storage (simulated CRM) |
-| **MinIO** | Object storage (S3-compatible) |
-| **Grafana** | Visualization and alerting |
-| **Docker** | Containerization & service management |
+Visualize insights in Grafana dashboards
 
----
+Automate pipelines using Airflow DAGs
 
-## 📁 Project Structure
+Send alerts to Telegram when anomalies are detected
 
+Tech Stack
+Component	Purpose
+Python 3.11	Data generation and ETL scripts
+Airflow	Workflow orchestration
+Kafka + Zookeeper	Streaming data pipeline
+ClickHouse	Analytical data storage
+PySpark	Feature computation and aggregation
+MongoDB	Raw JSON storage (simulated CRM)
+MinIO	Object storage (S3-compatible)
+Grafana	Visualization and alerting
+Docker	Containerization & service management
+Project Structure
 pikcha-analytics/
 ├── clickhouse/
-│ └── init_clickhouse.sql # Initializes ClickHouse tables automatically
+│   └── init_clickhouse.sql           # Initializes ClickHouse tables automatically
 │
 ├── dags/
-│ └── etl_dag.py # Airflow DAG for daily ETL process
+│   └── etl_dag.py                    # Airflow DAG for daily ETL process
 │
-├── data/ # Generated data
-│ ├── customers/
-│ ├── products/
-│ ├── purchases/
-│ └── stores/
+├── data/                             # Generated data
+│   ├── customers/
+│   ├── products/
+│   ├── purchases/
+│   └── stores/
 │
 ├── docker/
-│ ├── Dockerfile.airflow # Airflow custom image
-│ └── python.Dockerfile # Kafka/ClickHouse Python image
+│   ├── Dockerfile.airflow            # Airflow custom image
+│   └── python.Dockerfile             # Kafka/ClickHouse Python image
 │
 ├── docs/
-│ └── run_instructions.md # Setup documentation
+│   └── run_instructions.md           # Setup documentation
 │
 ├── etl/
-│ ├── pyspark_etl.py # Feature computation via PySpark
-│ └── requirements.txt # Dependencies
+│   ├── pyspark_etl.py                # Feature computation via PySpark
+│   └── requirements.txt              # Dependencies
 │
 ├── generator/
-│ ├── generate_data.py # Synthetic data generator
-│ └── sample_products.json # Product template
+│   ├── generate_data.py              # Synthetic data generator
+│   └── sample_products.json          # Product template
 │
 ├── grafana/
-│ ├── dashboards/
-│ │ └── dashboard.json # Exported Grafana dashboard
-│ └── provisioning/
-│ ├── dashboards/
-│ │ └── dashboard.yml # Dashboard provisioning
-│ ├── datasources/
-│ │ └── datasource.yml # ClickHouse datasource config
-│ └── alerting/
-│ └── contact-points.yml # Telegram alert contact point
+│   ├── dashboards/
+│   │   └── dashboard.json            # Exported Grafana dashboard
+│   └── provisioning/
+│       ├── dashboards/
+│       │   └── dashboard.yml         # Dashboard provisioning
+│       ├── datasources/
+│       │   └── datasource.yml        # ClickHouse datasource config
+│       └── alerting/
+│           └── contact-points.yml    # Telegram alert contact point
 │
 ├── loader/
-│ ├── load_to_nosql.py # Load JSON data into MongoDB
-│ ├── kafka_publisher.py # Publish messages to Kafka
-│ └── kafka_to_clickhouse.py # Stream Kafka → ClickHouse
+│   ├── load_to_nosql.py              # Load JSON data into MongoDB
+│   ├── kafka_publisher.py            # Publish messages to Kafka
+│   └── kafka_to_clickhouse.py        # Stream Kafka → ClickHouse
 │
-├── outputs/ # ETL results (CSV/Parquet)
+├── outputs/                          # ETL results (CSV/Parquet)
 │
-├── docker-compose.yml # All services (root level)
+├── docker-compose.yml                # All services (root level)
 │
 └── README.md
 
-yaml
-Копировать код
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-```bash
+Installation & Setup
+1. Clone the repository
 git clone https://github.com/AlexanderFL7/pikcha-analytics.git
 cd pikcha-analytics
+
 2. Environment setup
+
 Create a .env file in the project root:
 
-bash
-Копировать код
 AIRFLOW_UID=50000
 AIRFLOW_GID=0
 POSTGRES_USER=airflow
@@ -114,45 +103,55 @@ KAFKA_BOOTSTRAP=host.docker.internal:9092
 KAFKA_MASK_KEY=my_secret_key
 TELEGRAM_BOT_TOKEN=8094935037:AAEM3EYPy3hmzJtic6nZKKo3iKaGffq09qE
 TELEGRAM_CHAT_ID=428228184
-3. Launch all services
-From the project root:
 
-bash
-Копировать код
+3. Launch all services
+
+From the project root (not from docker/):
+
 docker compose up -d
 docker ps
+
+
 Services:
 
 Service	URL	Credentials
-Airflow	http://localhost:8080	airflow / airflow
-Grafana	http://localhost:3000	admin / Grafana1122
-ClickHouse	http://localhost:8123	—
-MinIO	http://localhost:9001	admin / admin123
+Airflow	http://localhost:8080
+	airflow / airflow
+Grafana	http://localhost:3000
+	admin / Grafana1122
+ClickHouse	http://localhost:8123
+	—
+MinIO	http://localhost:9001
+	admin / admin123
 MongoDB	mongodb://localhost:27017	—
 Kafka	host.docker.internal:9092	—
 
-The init_clickhouse.sql script automatically creates all necessary tables when the ClickHouse container starts.
+The init_clickhouse.sql script automatically creates all required tables when ClickHouse starts.
 
 4. Generate and load data
+
 Activate your Python environment and run:
 
-bash
-Копировать код
 python generator/generate_data.py
 python loader/load_to_nosql.py
 python loader/kafka_publisher.py
 python loader/kafka_to_clickhouse.py
+
 5. Run the ETL pipeline
-bash
-Копировать код
+
+Run manually:
+
 python etl/pyspark_etl.py
+
+
 Or use Airflow:
 
 Go to http://localhost:8080
 
 Enable DAG pikcha_etl_daily
 
-📊 Grafana Configuration
+Grafana Configuration
+
 All Grafana components are provisioned automatically on startup.
 
 Provisioned files:
@@ -165,17 +164,16 @@ Alerts: grafana/provisioning/alerting/contact-points.yml
 
 Check in Grafana:
 
-⚙️ Connections → Data Sources → ClickHouse
+Connections → Data Sources → ClickHouse
 
-📊 Dashboards → Pikcha Dashboard
+Dashboards → Pikcha Dashboard
 
-🔔 Alerting → Contact points → Telegram Piccha
+Alerting → Contact points → Telegram Piccha
 
-🔔 Telegram Alerts
-contact-points.yml:
+Telegram Alerts
 
-yaml
-Копировать код
+Example configuration (contact-points.yml):
+
 apiVersion: 1
 contactPoints:
   - orgId: 1
@@ -186,21 +184,22 @@ contactPoints:
         settings:
           bottoken: ${TELEGRAM_BOT_TOKEN}
           chatid: "${TELEGRAM_CHAT_ID}"
-          message: "🚨 Attention! Duplicates >50% detected in table {{ index .CommonLabels \"table\" }}"
-To test:
+          message: "Attention! Duplicates >50% detected in table {{ index .CommonLabels \"table\" }}"
 
-Grafana → Alerting → Contact Points → Telegram Piccha → Send Test Notification
 
-🧠 Monitoring Overview
+To test in Grafana:
+Alerting → Contact Points → Telegram Piccha → Send Test Notification
+
+Monitoring Overview
 Component	Status Check
 Airflow	DAG pikcha_etl_daily active
 Kafka	Topic purchases receives messages
-ClickHouse	Tables auto-created from init_clickhouse.sql
-Grafana	Dashboard renders live metrics
-Telegram	Alert notifications received
+ClickHouse	Tables created from init_clickhouse.sql
+Grafana	Dashboard displays live metrics
+Telegram	Alerts successfully sent
+Dashboard Overview
 
-📈 Dashboard Overview
-Dashboard panels include:
+The dashboard includes:
 
 Total purchases and revenue by store
 
@@ -212,21 +211,25 @@ Customer activity metrics
 
 Region-based analytics
 
-📚 Documentation
+Documentation
+
 Setup guide: docs/run_instructions.md
 
-Airflow Docs
+Airflow Documentation
 
-ClickHouse Docs
+ClickHouse Documentation
 
-Grafana Docs
+Grafana Documentation
 
-Kafka Docs
+Kafka Documentation
 
-PySpark Docs
+PySpark Documentation
 
-👤 Author
+Author
+
 Alexander Fedchuk
-📧 al-fedchuk@yandex.ru
-💬 Telegram: @F_AlexanderL
+Email: al-fedchuk@yandex.ru
+
+Telegram: @F_AlexanderL
+
 GitHub: @AlexanderFL7
