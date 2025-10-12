@@ -104,8 +104,8 @@ pikcha-analytics/
    MINIO_BUCKET_NAME=analytics
    KAFKA_BOOTSTRAP=host.docker.internal:9092
    KAFKA_MASK_KEY=my_secret_key
-   TELEGRAM_BOT_TOKEN=8094935037:AAEM3EYPy3hmzJtic6nZKKo3iKaGffq09qE
-   TELEGRAM_CHAT_ID=428228184
+   TELEGRAM_BOT_TOKEN=*************
+   TELEGRAM_CHAT_ID=*******
    ```
 
 3. **Launch all services**:
