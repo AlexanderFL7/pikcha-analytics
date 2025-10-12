@@ -2,6 +2,9 @@
 
 Pikcha Analytics is a complete end-to-end real-time ETL and analytics platform for the retail chain “Pikcha”. It handles data generation, streaming via Kafka, transformation in PySpark, analytics in ClickHouse, orchestration in Airflow, and visualization and alerting in Grafana with Telegram notifications.
 
+**Architecture Schema**:  
+![Architecture Schema](screen/Shema.jpg)
+
 ## Project Goals
 - Generate synthetic data for customers, purchases, stores, and products
 - Stream and mask sensitive data (emails, phones) via Kafka
@@ -78,22 +81,6 @@ pikcha-analytics/
 └── spark-env.cmd                 # Spark environment config
 ```
 
-## Screenshots
-Below are key visuals of the project in action:
-
-- **Architecture Schema**:  
-  ![Architecture Schema](screen/Shema.jpg)
-- **Airflow DAG Success**:  
-  ![Airflow DAG](screen/Airflow.png)
-- **Grafana Dashboard**:  
-  ![Grafana Dashboard](screen/dashboard.png)
-- **Grafana Alert Rules**:  
-  ![Alert Rules](screen/alert_rules.png)
-- **MinIO File Upload**:  
-  ![MinIO Upload](screen/Minio.png)
-- **Telegram Alert**:  
-  ![Telegram Alert](screen/Tg_alert.png)
-
 ## Installation & Setup
 1. **Clone the repository**:
    ```bash
@@ -156,6 +143,9 @@ Below are key visuals of the project in action:
    - Go to http://localhost:8080
    - Enable DAG `pikcha_etl_daily`
 
+   **Airflow DAG Success**:  
+   ![Airflow DAG](screen/Airflow.png)
+
 ## Grafana Configuration
 All Grafana components are provisioned automatically on startup.  
 **Provisioned files**:
@@ -168,24 +158,22 @@ All Grafana components are provisioned automatically on startup.
 - Dashboards → Pikcha Dashboard
 - Alerting → Contact points → Telegram Piccha
 
-## Telegram Alerts
-**Example configuration** (`grafana/provisioning/alerting/config.json`):
-```yaml
-apiVersion: 1
-contactPoints:
-  - orgId: 1
-    name: Telegram Piccha
-    receivers:
-      - uid: ddbb27c3-310a-4e31-b58e-7ca014cb8755
-        type: telegram
-        settings:
-          bottoken: ${TELEGRAM_BOT_TOKEN}
-          chatid: "${TELEGRAM_CHAT_ID}"
-          message: "Attention! Duplicates >50% detected in table {{ index .CommonLabels \"table\" }}"
-```
+**Grafana Dashboard**:  
+![Grafana Dashboard](screen/dashboard.png)
 
+**Grafana Alert Rules**:  
+![Alert Rules](screen/alert_rules.png)
+
+## Telegram Alerts
 **To test in Grafana**:
 - Alerting → Contact Points → Telegram Piccha → Send Test Notification
+
+**Telegram Alert**:  
+![Telegram Alert](screen/Tg_alert.png)
+
+## MinIO File Upload
+Processed files are successfully uploaded to MinIO:  
+![MinIO Upload](screen/Minio.png)
 
 ## Monitoring Overview
 | Component        | Status Check                                    |
