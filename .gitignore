@@ -1,6 +1,7 @@
 clickhouse_data/
 minio_data/
 postgres_data/
+grafana_data/
 docker/airflow/logs/
 docker/airflow/.pytest_cache
 __pycache__/
